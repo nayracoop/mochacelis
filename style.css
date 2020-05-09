@@ -1,6 +1,115 @@
-body {
-  width: 80%;
-  margin:auto;
-  background-color: black;
-  color:white;
+html, body {
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  background-color:#f3f3f3;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background-color:#FFF;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+#logo { 
+
+}
+
+#intro{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.video-container{
+    position:relative;
+    width:100%;
+    height:0;
+    padding-bottom:56%;
+}
+
+.video-container iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+#video{
+  width:100%;
+  height: auto;
+}
+
+#inscripciones .wrapper{
+  background-color: #FFF;
+  padding-top: 20px;
+  margin-bottom:100px;
+}
+
+#inscripciones h1{
+  border-left: 3px solid #4873FA;
+  margin-bottom:30px;
+  padding-left: 10px;
+}
+
+#inscripcion{
+  display: inline-block;
+  vertical-align: top;
+  width:25%;
+  padding: 30px;
+}
+
+#inscripcion .button{
+  max-width: 180px;
+  text-align: center;
+  background-color: #4873FA;
+  padding: 10px 20px;
+}
+
+#inscripcion .button a{
+  color: #FFF;
+}
+
+#descripcion{
+  display: inline-block;
+  vertical-align: top;
+  width:60%;
+  padding: 30px;
+}
+
+footer{
+  height: 500px;
+  background-image: url("assets/img/mocha-f.png");
+}
+
+footer .credits{
+  height:100px;
+  background-color: #000;
+}
+
+@media (max-width: 780px) {
+
+  #inscripcion{
+  width:80%;
+  }
+
+#descripcion{
+  width:80%;
+
+}
+
 }
