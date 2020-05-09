@@ -121,14 +121,20 @@ footer h2 {
 
 footer .wrapper {
   font-size: 0.8em;
+  padding: 10px 20px;
   margin: 30px auto;
   color: #000;
 }
 
-footer .wrapper ul li {
+#icons li{
+  display: inline-block;
+}
+
+#icons li a i{
   display: inline-block;
   margin-left: 0px;
-  margin-right: 10px;
+  margin-right: 20px;
+  font-size: 1em;
 }
 
 
