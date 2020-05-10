@@ -1,0 +1,192 @@
+{
+    "cover": {
+        "title": "Cooperative Technology for innovation",
+        "content": "We are the <abbr title='Information and communications technology'>ICT</abbr> cooperatives and our aim is to produce technology with an innovative working model, taking into consideration the economic and social relationships.",
+        "btn-text": "Contact us"
+    },
+    "about": {
+        "title": "About FIT",
+        "content": [
+            "<abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> is an intercooperative work space that belongs to the Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge (<abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr>)",
+            "<a href='#'><abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr></a> is formed by cooperative companies focused on providing <abbr title='Information Technology'>IT</abbr> solutions",
+            "We're owners of our companies, hardworking and committed to innovation and quality.",
+            "We create technology for an inclusive future."
+        ]
+    },
+    "cooperativeWork": {
+        "title": "How we work",
+        "content": "As an inter-cooperative space we receive the request, evaluate it, and deliver a proposal that meets the requirements."
+    },
+    "services": {
+        "title": "Services",
+        "service": [
+            {
+                "title": "Training and Consultancy",
+                "subservice": [
+                    "Project management ",
+                    "Data science",
+                    "Business Intelligence solutions",
+                    "Quality assurance",
+                    "Technological consulting",
+                    "Teacher training",
+                    "Programming courses",
+                    "Creative technologies workshop"
+                ]
+            },
+            {
+                "title": "Design and communication",
+                "subservice": [
+                    "UX",
+                    "UI",
+                    "Web design",
+                    "Interactive design",
+                    "Editorial design",
+                    "Graphic design",
+                    "Branding",
+                    "Audiovisual production",
+                    "Motion graphics",
+                    "Digital art",
+                    "Photography",
+                    "Illustration",
+                    "Digital communication",
+                    "Content creation and style correction",
+                    "General printing",
+                    "VDP"
+                ]
+            },
+            {
+                "title": "Development",
+                "subservice": [
+                    "Project management",
+                    "Web support",
+                    "Custom software development.",
+                    "Web and mobile development",
+                    "Virtual reality",
+                    "Augmented reality",
+                    "E-commerce",
+                    "ERP",
+                    "CRM",
+                    "CMS",
+                    "IoT",
+                    "Data science"
+                ]
+            },
+            {
+                "title": "Infrastructure",
+                "subservice": [
+                    "Software and hardware integration",
+                    "Structure wiring",
+                    "Servers administration",
+                    "Infrastructure as code"
+                ]
+            }
+        ]
+    },
+    "technologies": {
+        "title": "Technologies"
+    },
+    "cases": {
+        "title": "Case studies",
+        "Client": "Client",
+        "Area": "Area",
+        "Country": "Country",
+        "Technologies": "Technologies",
+        "Cooperatives involved": "Cooperatives involved",
+        "Team size": "Team size",
+        "Services offer": "Services offer",
+        "Link": "Link",
+        "Description": "Description",
+        "case": [
+            {
+                "title": "Shopper Trolley",
+                "customer": "Inventor group",
+                "area": "Commerce",
+                "country": "Australia",
+                "description": "Development of a mobile app Mockup (Android + iOS) to enhance costumer loyalty. It allows the public target to scan the product QR Code and obtain rewards or benefits.",
+                "service": "Custom development mobile",
+                "technologies": ["React native"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Aquiles",
+                "customer": "Own product",
+                "area": "Electronic billing",
+                "country": "Argentina",
+                "url": "https://www.aquiles.com.ar",
+                "description": "Development and maintenance of electronic billing web system.",
+                "service": "Development and maintenance",
+                "technologies": ["Python / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Betterez",
+                "customer": "Betterez Inc.",
+                "area": "Reservations & ticketing platform",
+                "country": "Canadá",
+                "url": ["https://www.betterez.com", "https://demo.betterez.com"],
+                "description": "For more than 5 years, there has been an inter-cooperative work to develop this project which has produced micro services, API Rest and mobile apps.",
+                "service": "Development team and resource management",
+                "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
+                "coOpsQuantity": "7",
+                "teamSize": "20"
+            },
+            {
+                "title": "ADC. Web de accesibilidad",
+                "customer": "Asociación por los Derechos Civiles",
+                "area": "Civil Rights, public politics investigation",
+                "country": "Argentina",
+                "url": "http://accesibilidad-digital.adc.org.ar/",
+                "description": "The website was created to raise awareness of the importance to develop technological tools in order to safeguard the disabled citizens' right to obtain autonomy and social inclusion.",
+                "service": "Design and development",
+                "technologies": ["HTML5", "Bootstrap"],
+                "coOpsQuantity": "2",
+                "teamSize": "9"
+            },
+            {
+                "title": "AWS",
+                "customer": "Backstory",
+                "area": "Advertising agency",
+                "country": "Argentina",
+                "url": "http://www.backstory.com.ar",
+                "description": "Development, maintenance and administración of infraestructure.",
+                "service": "Development, maintenance and infraestructure",
+                "technologies": ["AWS", "GNU/Linux", "EC2", "Cloud WebServers: entornos en Nginx", "Apache", "Node.js (PM2)", "Load Balance", "RDS"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "PSA",
+                "customer": "PSA - Industrias Pugliese S. A.",
+                "area": "Water purifiers",
+                "country": "Latin America",
+                "description": "Development of chat application similar to Whatsapp with web, Android and iOS support.",
+                "service": "Development team and permanent maintenance",
+                 "technologies": ["Python", "Elixir", "Ionic"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Receptiviti",
+                "customer": "Receptiviti",
+                "area": "Neurolinguistic analisys of organization through artificial inteligence",
+                "country": "Canadá",
+                "url": "https://www.receptiviti.com",
+                "description": "Development of an application to obtain the <i>culture analytics</i> of the organizations.",
+                "service": "Development team and resource management",
+                "technologies": ["Python", "React", "Docker", "AWS"],
+                "coOpsQuantity": "2",
+                "teamSize": "5"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact"
+    },
+    "footer": {
+        "signature": "<span>&lt;/&gt;</span> with <span>♥</span> by cooperativists",
+        "licence": "Content on this site is licensed under a ",
+        "licenceLinkTitle": "Creative Commons Attribution-ShareAlike 4.0 International license"
+    }
+}

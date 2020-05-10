@@ -1,0 +1,219 @@
+{
+    "cover": {
+        "title": "Tecnologías cooperativas para la innovación",
+        "content": "Somos las cooperativas <abbr title='Tecnologías de Información y Comunicaciones'>TICs</abbr> y queremos producir tecnología con un nuevo modelo de trabajo y de relaciones económicas sociales y solidarias.",
+        "btn-text": "Contactanos"
+    },
+    "about": {
+        "title": "Acerca del FIT",
+        "content": [
+            "El <abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> es un espacio intercooperativo de trabajo que pertenece a la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (<abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr>).",
+            "<a href='#'><abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr></a> está conformada por empresas cooperativas dedicadas a brindar soluciones informáticas.",
+            "Somos personas trabajadoras, dueñas de nuestras empresas, y comprometidas con la innovación y la calidad.",
+            "Creamos tecnología para un futuro inclusivo."
+        ]
+    },
+    "cooperativeWork": {
+        "title": "¿Cómo trabajamos?",
+        "content": "Como espacio intercooperativo, recibimos el pedido, lo evaluamos en función de las  necesidades y del potencial del equipo, y entregamos la propuesta que mejor atienda sus requerimientos."
+    },
+    "services": {
+        "title": "Servicios",
+        "service": [
+            {
+                "title": "Capacitación y consultoría",
+                "subservice": [
+                    "Project managment",
+                    "Data science",
+                    "Soluciones integrales de business intelligence",
+                    "Aseguramiento de la calidad",
+                    "Consultoría tecnológica",
+                    "Capacitaciones docentes",
+                    "Cursos de programación",
+                    "Talleres de tecnología creativa"
+                ]
+            },
+            {
+                "title": "Diseño y comunicación",
+                "subservice": [
+                    "UX",
+                    "UI",
+                    "Diseño web",
+                    "Diseño interactivo",
+                    "Diseño editorial",
+                    "Diseño gráfico",
+                    "Branding",
+                    "Preproducción, producción y postproducción audiovisual",
+                    "Motion graphics",
+                    "Arte digital",
+                    "Fotografía",
+                    "Ilustraciones",
+                    "Comunicación digital",
+                    "Creación de contenido y corrección de estilo",
+                    "Impresiones generales",
+                    "VDP"
+                ]
+            },
+            {
+                "title": "Desarrollo",
+                "subservice": [
+                    "Project managment",
+                    "Mantenimiento web",
+                    "Desarrollo de software a medida",
+                    "Desarrollo web y mobile",
+                    "Realidad virtual",
+                    "Realidad aumentada",
+                    "E-commerce",
+                    "Implementación y desarrollo ERP",
+                    "CRM",
+                    "CMS",
+                    "IoT",
+                    "Data science"
+                ]
+            },
+            {
+                "title": "Infraestructura",
+                "subservice": [
+                    "Integraciones hardware y software",
+                    "Cableados estructurados",
+                    "Administración de servidores",
+                    "Infraestructura como código"
+                ]
+            }
+        ]
+    },
+    "technologies": {
+        "title": "Tecnologías"
+    },
+    "cases": {
+        "title": "Casos de éxito",
+        "Client": "Cliente",
+        "Area": "Area",
+        "Country": "País",
+        "Technologies": "Tecnologías",
+        "Cooperatives involved": "Cooperativas involucradas",
+        "Team size": "Trabajadores involucrados",
+        "Services offer": "Servicios ofrecidos",
+        "Link": "Link del proyecto",
+        "Description": "Descripción",
+        "case": [
+            {
+                "title": "Shopper Trolley",
+                "customer": "Inventor group",
+                "area": "Comercio",
+                "country": "Australia",
+                "description": "Desarrollo de un Mockup de una App Mobile (Android + iOS) para fidelización de clientes. A través de ella, se escanean códigos QR de productos y se obtienen premios o beneficios.",
+                "service": "Desarrollo mobile a medida",
+                "technologies": ["React native"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Aquiles",
+                "customer": "Producto propio",
+                "area": "Facturación electrónica",
+                "country": "Argentina",
+                "url": "https://www.aquiles.com.ar",
+                "description": "Desarrollo y mantenimiento de sistema web de facturación electrónica.",
+                "service": "Desarrollo y mantenimiento",
+                "technologies": ["Python / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Betterez",
+                "customer": "Betterez Inc.",
+                "area": "Reservations & ticketing platform",
+                "country": "Canadá",
+                "url": ["https://www.betterez.com", "https://demo.betterez.com"],
+                "description": "Desarrollo desde hace más de 5 años de la aplicación web que ha crecido en decenas de microservicios, API Rest y mobile apps.",
+                "service": "Equipo de desarrollo y  manejo de recursos permanente",
+                "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
+                "coOpsQuantity": "7",
+                "teamSize": "20"
+            },
+            {
+                "title": "ADC. Web de accesibilidad",
+                "customer": "Asociación por los Derechos Civiles",
+                "area": "Derechos civiles, investigación de políticas públicas",
+                "country": "Argentina",
+                "url": "http://accesibilidad-digital.adc.org.ar/",
+                "description": "Sitio Web para visibilizar la importancia de desarrollar aplicaciones de herramientas tecnológicas que resguarden el derecho a la plena autonomía e  inclusión ciudadana y social de las personas con discapacidad.",
+                "service": "Diseño y desarrollo",
+                "technologies": ["HTML5", "Bootstrap"],
+                "coOpsQuantity": "2",
+                "teamSize": "9"
+            },
+            {
+                "title": "AWS",
+                "customer": "Backstory",
+                "area": "Agencia de publicidad",
+                "country": "Argentina",
+                "url": "http://www.backstory.com.ar",
+                "description": "Desarrollo, mantenimiento y administración de infraestructura.",
+                "service": "Desarrollo, mantenimiento e infraestructura",
+                "technologies": ["AWS", "GNU/Linux", "EC2", "Cloud WebServers: entornos en Nginx", "Apache", "Node.js (PM2)", "Load Balance", "RDS"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "PSA",
+                "customer": "PSA - Industrias Pugliese S. A.",
+                "area": "Purificadores de agua",
+                "country": "Latinoamérica",
+                "description": "Desarrollo de una aplicación chat similar a WhatsApp con soporte web, Android y iOS.",
+                "service": "Equipo de desarrollo y mantenimiento permanente",
+                 "technologies": ["Python", "Elixir", "Ionic"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Receptiviti",
+                "customer": "Receptiviti",
+                "area": "Análisis neurolingüístico de organizaciones a través de inteligencia artificial",
+                "country": "Canadá",
+                "url": "https://www.receptiviti.com",
+                "description": "Desarrollo de una web para analizar y visualizar los resultados del <i>análisis neurolingüístico</i> de las organizaciones.",
+                "service": "Equipo de desarrollo y manejo de recursos",
+                "technologies": ["Python", "React", "Docker", "AWS"],
+                "coOpsQuantity": "2",
+                "teamSize": "5"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contacto"
+    },
+    "footer": {
+        "signature": "<span>&lt;/&gt;</span> con <span>♥</span> por cooperativistas",
+        "licence": "El contenido de este sitio se distribuye bajo una licencia",
+        "licenceLinkTitle": "Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)"
+    },
+    "Open": "Abrir",
+    "About FIT": "Acerca del FIT",
+    "Services": "Servicios",
+    "Technologies": "Tecnologías",
+    "Case studies": "Casos de éxito",
+    "Contact us": "Contactanos",
+    "This field is required": "Este campo es requerido",
+    "Email address": "Email",
+    "Enter your email address": "Ingrese su email",
+    "Company name": "Nombre empresa",
+    "Enter your company name": "Ingrese el nombre de su empresa",
+    "Name": "Nombre completo",
+    "Enter your name": "Ingrese su nombre completo",
+    "¿What service are you looking for?": "¿Qué servicio está buscando?",
+    "Message": "Mensaje",
+    "Enter your message": "Ingrese su mensaje",
+    "Send": "Enviar",
+    "FIT": "Flujo Intercooperativo de Trabajo",
+    "Message sent. Thank you!": "Mensaje enviado. ¡Muchas gracias!",
+    "An error occurred while trying to send your message.": "Ocurrió un error al intentar enviar su mensaje.",
+    "Error sending message": "Error al enviar el mensaje",
+    "Select service": "Seleccione el servicio",
+    "Training and Consultancy": "Capacitación y consultoría",
+    "Design and communication": "Diseño y comunicación",
+    "Development": "Desarrollo",
+    "Infrastructure": "Infraestructura",
+    "Other services": "Otros servicios"
+}
