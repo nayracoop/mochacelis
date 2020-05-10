@@ -44,12 +44,7 @@
                 >
                   {{ $t('Services') }}
                 </b-nav-item>
-                <b-nav-item
-                  href="#technologies"
-                  :class="{ active: highlight === 'technologies' }"
-                >
-                  {{ $t('Technologies') }}
-                </b-nav-item>
+
                 <b-nav-item
                   href="#case-studies"
                   :class="{ active: highlight === 'case-studies' }"

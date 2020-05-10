@@ -2,7 +2,6 @@
 
 Sitio web del Bachillerato Popular Travesti - Trans Mocha Celis desarrollado en Vue.js. 
 
-
 ## Instalación
 
 Clonar repo y correr 
