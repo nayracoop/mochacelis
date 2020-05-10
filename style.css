@@ -8,15 +8,23 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
-  color: #888;
+  color: #363636;
+  transition: .2s ease-in-out all;
+}
+a:hover {
+  color: #5798C1;
+}
+p {
+  line-height: 1.5rem;
 }
 
-.wrapper{
-  width: 100%;
+.wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
   height: 100%;
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -43,19 +51,19 @@ nav {
   font-size: 0.65em;
 }
 
-#intro{
-  padding-top: 100px;
+#intro {
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
-.video-container{
+.video-container {
     position:relative;
     width:100%;
     height:0;
     padding-bottom:56%;
 }
 
-.video-container iframe{
+.video-container iframe {
     position:absolute;
     left:0;
     top:0;
@@ -63,98 +71,144 @@ nav {
     height:100%;
 }
 
-#video{
+#video {
   width:100%;
   height: auto;
 }
 
-#inscripciones .wrapper{
+#inscripciones .wrapper {
   background-color: #FFF;
   padding-top: 20px;
   margin-bottom:100px;
 }
 
-#inscripciones h1{
+#inscripciones h1 {
   border-left: 3px solid #4873FA;
   margin-bottom:30px;
-  padding-left: 10px;
+  padding-left: 60px;
+  margin-left: -30px;
+  font-size: .81em;
   text-transform: uppercase;
 }
 
-#inscripcion{
+#inscripcion {
   display: inline-block;
   vertical-align: top;
-  width:25%;
+  width: 33.33%;
   padding: 30px;
 }
 
-#inscripcion .button{
-  max-width: 180px;
+#inscripcion .button {
   text-align: center;
-  background-color: #4873FA;
-  padding: 10px 20px;
+  background-color: #68B5E6;
   text-transform: uppercase;
 }
 
-#inscripcion .button a{
-  color: #FFF;
+#inscripcion .button i {
+  margin-right: 10px;
 }
 
-#descripcion{
+#inscripcion .button a {
+  color: #FFF;
+  padding: 15px 20px;
+  display: block;
+}
+
+#inscripcion .button a:hover { 
+  background: #5798C1;
+}
+
+#descripcion {
   display: inline-block;
   vertical-align: top;
-  width:60%;
+  width: 55%;
   padding: 30px;
 }
 
-footer{
-  height: 300px;
+#descripcion p:first-of-type {
+  margin-top: 0;
+}
+
+footer {
   margin-bottom: 0px;
-  padding-top: 20px;
   background-image: url("assets/img/mocha-f.png");
 }
 
-footer h2 {
+footer .top-footer h2 {
   text-transform: uppercase;
   font-size: 1em;
 }
 
-footer .wrapper {
+footer .top-footer.wrapper {
+  width: auto;
   font-size: 0.8em;
-  padding: 10px 20px;
-  margin: 30px auto;
+  padding: 70px 30px;
+  margin: 0 auto;
+  margin-bottom: 0;
   color: #000;
+  text-align: right;
+  height: auto;
 }
-
-#icons li{
+footer .top-footer.wrapper .inner-wrapper {
   display: inline-block;
 }
 
-#icons li a i{
+footer .top-footer.wrapper .inner-wrapper * {
+  text-align: left;
+}
+
+#icons {
+  padding-left: 0;  
+}
+
+#icons li {
+  display: inline-block;
+}
+
+#icons li a i {
   display: inline-block;
   margin-left: 0px;
   margin-right: 20px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
+footer .credits .wrapper {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;  
+  text-transform: uppercase;
+  color: #707070;
+  font-size: .7em;
+}
 
-footer .credits{
-  height:10px;
+footer .credits {
   margin-top: 0px;
-  font-size: 0.7em;
-  padding: 20px 30px;
+  padding: 40px 30px;
   background-color: #000;
 }
 
 @media (max-width: 780px) {
-
-  #inscripcion{
-  width:80%;
+  .wrapper {
+    max-width: 100%;
+    width: calc(100% - 60px);
   }
 
-  #descripcion{
-    width:80%;
+  #inscripcion, 
+  #descripcion {
+    width:100%;
+    padding: 0;
+  }
 
+  #inscripciones h1 {
+    padding-left: 30px;
+  }
+
+  footer .top-footer.wrapper {
+    text-align: left;
+  }
+  
+  footer .credits .wrapper {
+    margin-left: 0;
   }
 
   #logo {
@@ -166,7 +220,6 @@ footer .credits{
     max-width: 100%;
     text-align: left;
     font-size: 0.65em;
-    margin: 10px auto;
+    margin-top: 25px;
   }
-
 }
