@@ -6,7 +6,7 @@
     <b-container>
       <b-row class="min-vh-100 w-100">
         <img
-          src="static/img/logo.svg"
+          src="static/img/logo.png"
           alt="Bachillerato Popular Travesti - Trans Mocha Celis"
           class="logo"
         >
