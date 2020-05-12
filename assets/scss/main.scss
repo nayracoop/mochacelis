@@ -142,14 +142,7 @@ header {
         box-shadow: 1px 1px 3px 1px rgba(128, 128, 128, 0.1);
         .navbar-nav {
             li.nav-item {
-                a.nav-link {
-                    color: $color-dark;
-                    &:hover {
-                        border-bottom: 1px solid $color-dark;
-                        color: $color-dark;
-                    }
-                }
-                &.cta-item {
+                .cta-item {
                     a.nav-link {
                         border: 1px solid $color-dark;
                         background: transparent;
@@ -187,7 +180,7 @@ header {
                     .nav-link {
                         background: $color-dark!important;
                         color: #FFF!important;
-                        border: 1px solid $color-dark;
+                        border: 1px solid #FFF;
                     }
                 }
                 a.nav-link {
@@ -213,7 +206,7 @@ header {
 
             &.active {
                 .nav-link {
-                    border-bottom: 1px solid $color-dark;   
+                    border-bottom: 1px solid #fff;   
                 }
             }
         }

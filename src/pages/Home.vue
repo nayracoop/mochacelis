@@ -4,7 +4,6 @@
     <cover-section ref="cover" />
     <about-section ref="about" />
     <donations-section ref="donations" />
-    <contact-section ref="contact" />
     <mocha-footer />
   </div>
 </template>
@@ -13,7 +12,6 @@
 import MochaHeader from 'components/Header.vue'
 import CoverSection from 'components/Cover.vue'
 import AboutSection from 'components/About.vue'
-import ContactSection from 'components/Contact.vue'
 import DonationsSection from 'components/Donations.vue'
 import MochaFooter from 'components/Footer.vue'
 
@@ -22,7 +20,6 @@ export default {
     MochaHeader,
     CoverSection,
     AboutSection,
-    ContactSection,
     DonationsSection,
     MochaFooter
   },

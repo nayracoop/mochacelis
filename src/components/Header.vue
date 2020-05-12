@@ -28,11 +28,19 @@
             >
               <b-navbar-nav class="ml-auto">
                 <b-nav-item
+                  href="#cover"
+                  :class="{ active: highlight === 'cover' }"
+                >
+                  {{ $t('Home') }}
+                </b-nav-item>
+
+                <b-nav-item
                   href="#about"
                   :class="{ active: highlight === 'about' }"
                 >
                   {{ $t('About Mocha Celis') }}
                 </b-nav-item>
+               
                 <b-nav-item
                   href="#donations"
                   :class="{ active: highlight === 'donations' }"
@@ -40,7 +48,7 @@
                   {{ $t('Donations') }}
                 </b-nav-item>
                 <b-nav-item
-                  href="#contact"
+                  href="#"
                   :class="{ active: highlight === 'contact'}"
                   class="cta-item"
                 >
