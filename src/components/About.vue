@@ -9,28 +9,12 @@
           <p>{{ $t('about.content') }}</p>
         </b-col>
       </b-row>
-      <b-row class="cooperative-work">
-        <b-col class="col-12 col-md-6">
-          <h2 class="pb-2">
-            {{ $t('cooperativeWork.title') }}
-          </h2>
-          <p>{{ $t('cooperativeWork.content') }}</p>
-        </b-col>
-        <b-col class="col-12">
-          <methodology-chart class="mt-4" />
-        </b-col>
-      </b-row>
     </b-container>
   </section>
 </template>
 
 <script>
 
-import MethodologyChart from '../components/snippets/MethodologyChart'
-
 export default {
-  components: {
-    MethodologyChart
-  }
 }
 </script>
