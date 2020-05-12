@@ -6,10 +6,7 @@
           <h2 class="pb-2">
             {{ $t('about.title') }}
           </h2>
-          <p v-html="$t('about.content[0]')"></p>
-          <p v-html="$t('about.content[1]')"></p>
-          <p>{{ $t('about.content[2]') }}</p>
-          <p>{{ $t('about.content[3]') }}</p>
+          <p>{{ $t('about.content') }}</p>
         </b-col>
       </b-row>
       <b-row class="cooperative-work">

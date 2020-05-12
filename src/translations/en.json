@@ -1,18 +1,18 @@
 {
     "cover": {
-        "title": "Cooperative Technology for innovation",
-        "content": "We are the <abbr title='Information and communications technology'>ICT</abbr> cooperatives and our aim is to produce technology with an innovative working model, taking into consideration the economic and social relationships.",
-        "btn-text": "Contact us"
+        "title": "Terminá el secundario",
+        "content": "Mocha Celis Bachillerato Trans",
+        "btn-text": "Inscripciones 2020"
     },
     "about": {
-        "title": "About Mocha Celis",
-        "content": [
-            "<abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> is an intercooperative work space that belongs to the Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge (<abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr>)",
-            "<a href='#'><abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr></a> is formed by cooperative companies focused on providing <abbr title='Information Technology'>IT</abbr> solutions",
-            "We're owners of our companies, hardworking and committed to innovation and quality.",
-            "We create technology for an inclusive future."
-        ]
+        "title": "About Mocha",
+        "content": "\"La Mocha\" se conoce formalmente como la Unidad de Gestión Educativa Experimental (UGEE) No. 16. Es una escuela secundaria fundada en el 2011 cuya misión es promover la inclusión de personas trans/travestis de manera no exclusiva en la educación formal para subsanar la brecha de oportunidades y la discriminación estructural que enfrentan. La Mocha nace en el cruce de 30 anos de activismo travesti/ trans y más de 10 años de la existencia de Bachilleratos populares. La Mocha Celis empodera a sus estudiantes con educación gratuita y de calidad; forma líderes que potencian el movimiento trans; y promueve la integración en la fuerza laboral con estrategias diversas."
     },
+    "donations": {
+        "title": "Donations",
+        "content": "Donation text here"
+    },
+
     "cooperativeWork": {
         "title": "How we work",
         "content": "As an inter-cooperative space we receive the request, evaluate it, and deliver a proposal that meets the requirements."

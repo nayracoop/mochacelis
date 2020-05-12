@@ -1,18 +1,18 @@
 {
     "cover": {
-        "title": "Tecnologías cooperativas para la innovación",
-        "content": "Somos las cooperativas <abbr title='Tecnologías de Información y Comunicaciones'>TICs</abbr> y queremos producir tecnología con un nuevo modelo de trabajo y de relaciones económicas sociales y solidarias.",
-        "btn-text": "Contactanos"
+        "title": "Terminá el secundario",
+        "content": "Mocha Celis Bachillerato Trans",
+        "btn-text": "Inscripciones 2020"
     },
     "about": {
-        "title": "Quien es la mocha?",
-        "content": [
-            "El <abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> es un espacio intercooperativo de trabajo que pertenece a la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (<abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr>).",
-            "<a href='#'><abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr></a> está conformada por empresas cooperativas dedicadas a brindar soluciones informáticas.",
-            "Somos personas trabajadoras, dueñas de nuestras empresas, y comprometidas con la innovación y la calidad.",
-            "Creamos tecnología para un futuro inclusivo."
-        ]
+        "title": "¿Quién es la Mocha?",
+        "content": "\"La Mocha\" se conoce formalmente como la Unidad de Gestión Educativa Experimental (UGEE) No. 16. Es una escuela secundaria fundada en el 2011 cuya misión es promover la inclusión de personas trans/travestis de manera no exclusiva en la educación formal para subsanar la brecha de oportunidades y la discriminación estructural que enfrentan. La Mocha nace en el cruce de 30 anos de activismo travesti/ trans y más de 10 años de la existencia de Bachilleratos populares. La Mocha Celis empodera a sus estudiantes con educación gratuita y de calidad; forma líderes que potencian el movimiento trans; y promueve la integración en la fuerza laboral con estrategias diversas."
     },
+    "donations": {
+        "title": "Donaciones",
+        "content": "Texto de donaciones aquí"
+    },
+
     "cooperativeWork": {
         "title": "¿Cómo trabajamos?",
         "content": "Como espacio intercooperativo, recibimos el pedido, lo evaluamos en función de las  necesidades y del potencial del equipo, y entregamos la propuesta que mejor atienda sus requerimientos."
@@ -190,11 +190,10 @@
         "licenceLinkTitle": "Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)"
     },
     "Open": "Abrir",
-    "About FIT": "Acerca del FIT",
-    "Services": "Servicios",
-    "Technologies": "Tecnologías",
+    "About Mocha Celis": "¿Quién es la Mocha?",
+    "Donations": "Donaciones",
     "Case studies": "Casos de éxito",
-    "Contact us": "Contactanos",
+    "Contact us": "Contacto",
     "This field is required": "Este campo es requerido",
     "Email address": "Email",
     "Enter your email address": "Ingrese su email",
@@ -202,7 +201,7 @@
     "Enter your company name": "Ingrese el nombre de su empresa",
     "Name": "Nombre completo",
     "Enter your name": "Ingrese su nombre completo",
-    "¿What service are you looking for?": "¿Qué servicio está buscando?",
+    "¿What are you looking for?": "¿Qué está buscando?",
     "Message": "Mensaje",
     "Enter your message": "Ingrese su mensaje",
     "Send": "Enviar",

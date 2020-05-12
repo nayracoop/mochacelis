@@ -10,11 +10,6 @@
             <b-navbar-brand href="#cover">
               <h1>
                 <b class="sr-only"><abbr title="Flujo Intercooperativo de trabajo">FIT</abbr> - Flujo Intercooperativo de Trabajo</b>
-                <img
-                  src="static/img/logo.svg"
-                  alt="FIT logo"
-                  class="fit-logo"
-                >
               </h1>
             </b-navbar-brand>
 
@@ -36,20 +31,13 @@
                   href="#about"
                   :class="{ active: highlight === 'about' }"
                 >
-                  {{ $t('About FIT') }}
+                  {{ $t('About Mocha Celis') }}
                 </b-nav-item>
                 <b-nav-item
-                  href="#services"
-                  :class="{ active: highlight === 'services' }"
+                  href="#donations"
+                  :class="{ active: highlight === 'donations' }"
                 >
-                  {{ $t('Services') }}
-                </b-nav-item>
-
-                <b-nav-item
-                  href="#case-studies"
-                  :class="{ active: highlight === 'case-studies' }"
-                >
-                  {{ $t('Case studies') }}
+                  {{ $t('Donations') }}
                 </b-nav-item>
                 <b-nav-item
                   href="#contact"

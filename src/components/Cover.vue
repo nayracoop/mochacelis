@@ -5,6 +5,11 @@
   >
     <b-container>
       <b-row class="min-vh-100 w-100">
+        <img
+          src="static/img/logo.svg"
+          alt="Bachillerato Popular Travesti - Trans Mocha Celis"
+          class="logo"
+        >
         <b-col class="col-12 col-md-6 mt-auto cover-info">
           <h2 class="mb-4">
             {{ $t('cover.title') }}

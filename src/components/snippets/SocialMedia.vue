@@ -4,21 +4,21 @@
             <li class="mt-1 mb-1">
               <a
                 target="_blank"
-                href="https://www.facebook.com/facttic/"
+                href="https://www.facebook.com/mochacelis/"
                 title="Facebook"
               ><font-awesome-icon :icon="['fab', 'facebook-square']" /><span class="sr-only">Facebook</span></a>
             </li>
             <li class="mt-1 mb-1">
               <a
                 target="_blank"
-                href="https://www.instagram.com/facttic.ar/"
+                href="https://www.instagram.com/mochacelis/"
                 title="Instagram"
               ><font-awesome-icon :icon="['fab', 'instagram']" /><span class="sr-only">Instagram</span></a>
             </li>
             <li class="mt-1 mb-1">
               <a
                 target="_blank"
-                href="https://twitter.com/facttic"
+                href="https://twitter.com/BachiTransMocha"
                 title="Twitter"
               ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
             </li>

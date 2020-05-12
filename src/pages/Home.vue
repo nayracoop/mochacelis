@@ -1,36 +1,30 @@
 <template>
   <div id="wrapper">
-      <fit-header ref="header" :highlight="currentSection" :class="{ scrolled }" />
-      <fit-cover ref="cover" />
-      <fit-about ref="about" />
-      <fit-services ref="services" />
-      <fit-technologies ref="technologies" />
-      <fit-portfolio ref="case-studies" />
-      <fit-contact ref="contact" />
-      <fit-footer></fit-footer>
+    <mocha-header ref="header" :highlight="currentSection" :class="{ scrolled }" />
+    <cover-section ref="cover" />
+    <about-section ref="about" />
+    <donations-section ref="donations" />
+    <contact-section ref="contact" />
+    <mocha-footer />
   </div>
 </template>
 
 <script>
-import FitHeader from 'components/Header.vue'
-import FitAbout from 'components/About.vue'
-import FitPortfolio from 'components/Portfolio.vue'
-import FitContact from 'components/Contact.vue'
-import FitCover from 'components/Cover.vue'
-import FitFooter from 'components/Footer.vue'
-import FitServices from 'components/Services.vue'
-import FitTechnologies from 'components/Technologies.vue'
+import MochaHeader from 'components/Header.vue'
+import CoverSection from 'components/Cover.vue'
+import AboutSection from 'components/About.vue'
+import ContactSection from 'components/Contact.vue'
+import DonationsSection from 'components/Donations.vue'
+import MochaFooter from 'components/Footer.vue'
 
 export default {
   components: {
-    FitHeader,
-    FitCover,
-    FitAbout,
-    FitPortfolio,
-    FitContact,
-    FitFooter,
-    FitServices,
-    FitTechnologies
+    MochaHeader,
+    CoverSection,
+    AboutSection,
+    ContactSection,
+    DonationsSection,
+    MochaFooter
   },
   data () {
     return {
@@ -38,17 +32,6 @@ export default {
       isSafari: false,
       scrolled: false,
       currentSection: ''
-    }
-  },
-  methods: {
-    handleScroll (e) {
-      const scrollY = Number((window.pageYOffset || document.scrollTop) - (document.clientTop || 0) + Math.max(document.documentElement.clientHeight, window.innerHeight || 0) * 0.6)
-      this.scrolled = Number((window.pageYOffset || document.scrollTop) - (document.clientTop || 0)) > Math.max(document.documentElement.clientHeight, window.innerHeight || 0) * 0.05
-      for (const ref in this.$refs) {
-        if (scrollY > this.$refs[ref].$el.offsetTop) {
-          this.currentSection = ref
-        }
-      }
     }
   },
   created () {
@@ -63,6 +46,17 @@ export default {
   },
   destroyed () {
     window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll (e) {
+      const scrollY = Number((window.pageYOffset || document.scrollTop) - (document.clientTop || 0) + Math.max(document.documentElement.clientHeight, window.innerHeight || 0) * 0.6)
+      this.scrolled = Number((window.pageYOffset || document.scrollTop) - (document.clientTop || 0)) > Math.max(document.documentElement.clientHeight, window.innerHeight || 0) * 0.05
+      for (const ref in this.$refs) {
+        if (scrollY > this.$refs[ref].$el.offsetTop) {
+          this.currentSection = ref
+        }
+      }
+    }
   }
 }
 </script>
