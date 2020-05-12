@@ -3,7 +3,13 @@
     <b-container>
       <b-row>
         <b-col>
-          <p>Información de contacto</p>
+          <div>
+            <p>Bachillerato Popular Trans Mocha Celis</p>
+            <p>Av. Federico Lacroze 4181, 5to piso.</p>
+            <p>Buenos Aires, Bs. As.</p>
+            <p>C1427EDG ARGENTINA</p>
+            <p>Tel: +54 (011) 4554-9048</p>
+          </div>
           <ul class="social-links mb-5">
             <li>
               <a

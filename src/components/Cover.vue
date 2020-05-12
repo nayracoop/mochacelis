@@ -18,6 +18,9 @@
           <b-button href="#contact">
             {{ $t('cover.btn-text') }}
           </b-button>
+          <b-button href="#donations">
+            {{ $t('donations.donate') }}
+          </b-button>
         </b-col>
         <b-col class="col-12 mt-auto">
           <ul class="social-links mt-4">

@@ -307,8 +307,6 @@ header {
         }
     }
     .about-info {
-        background-image: url('../static/img/about-bg.svg');
-        background-size: 40%;
         background-position: top right;
         background-repeat: no-repeat;
         padding-bottom: 65px;
@@ -348,6 +346,16 @@ header {
             text-transform: uppercase;
             font-weight: 600;
             color: #6056a5;
+        }
+    }
+}
+
+#donations {
+    .section-heading {
+        h2 {
+            &::after {
+                background: $color-magenta;
+            }
         }
     }
 }
