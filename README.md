@@ -1,8 +1,6 @@
-# FIT website - Flujo Intercooperativo de Trabajo
+# Bachillerato Popular Travesti Trans Mocha Celis
 
-Sitio web del FIT Flujo Intercooperativo de Trabajo desarrollado en Vue.js. 
-
-:point_right: El sitio se encuentra disponible en **http://facttic.org.ar/fit/** :point_left: 
+Sitio web del Bachillerato Popular Travesti Trans Mocha Celis desarrollado en Vue.js. 
 
 ## Instalación
 

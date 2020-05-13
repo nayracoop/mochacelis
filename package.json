@@ -10,10 +10,9 @@
   "keywords": [
     "Vue",
     "Webpack 4",
-    "FIT",
-    "Facttic"
+    "Mocha Celis"
   ],
-  "author": "Facttic",
+  "author": "nayracoop",
   "license": "GPL-3.0",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
@@ -70,6 +69,6 @@
     "webpack-merge": "^4.2.2"
   },
   "repository": {
-    "url": "https://github.com/nayracoop/fit-web"
+    "url": "https://github.com/nayracoop/mochacelis"
   }
 }
