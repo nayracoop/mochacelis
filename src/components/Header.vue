@@ -9,7 +9,7 @@
           >
             <b-navbar-brand href="#cover">
               <h1>
-                <b class="sr-only"><abbr title="Flujo Intercooperativo de trabajo">FIT</abbr> - Flujo Intercooperativo de Trabajo</b>
+                <b class="sr-only"><abbr title="Bachillerato Popular Trans Mocha Celis">La Mocha Celis</abbr></b>
               </h1>
             </b-navbar-brand>
 
@@ -48,7 +48,7 @@
                   {{ $t('Donations') }}
                 </b-nav-item>
                 <b-nav-item
-                  href="#"
+                  href="#footer"
                   :class="{ active: highlight === 'contact'}"
                   class="cta-item"
                 >

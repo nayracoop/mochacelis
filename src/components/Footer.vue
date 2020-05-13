@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center bg-grey">
+  <footer id="footer" class="text-center bg-grey">
     <b-container>
       <b-row>
         <b-col>
