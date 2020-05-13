@@ -4,7 +4,8 @@
       <b-row>
         <b-col class="col-12 col-md-6 section-heading">
           <h2 class="pb-2">
-            {{ $t('donations.title') }}
+            <span class="initial">
+              {{$t('donations.title')[0]}}</span>{{ $t('donations.title').substr(1)}}
           </h2>
         </b-col>
       </b-row>
@@ -40,6 +41,5 @@
 <script>
 
 export default {
-
 }
 </script>

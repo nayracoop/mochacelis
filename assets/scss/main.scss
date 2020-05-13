@@ -11,7 +11,7 @@ body {
 body a {
     color: $color-dark;
     &:hover {
-        color: $color-indigo;
+        color: $color-purple;
     }
 }
 
@@ -53,21 +53,11 @@ i {
     margin-bottom: 50px;
     margin-top: 70px;
     h2 {
-        position: relative;
-        &::after {
-            background: $color-magenta;
-            content: '';
-            position: absolute;
-            height: 1em;
-            z-index:-1;
+        .initial { 
             width: 1em;
-            border-radius: 0px;
-            left: -5px;
-            bottom: 10px;
+            height: 1em;
+            padding: 0 .2em;
         }
-    }
-    p {
-        display: none;
     }
 }
 
@@ -80,7 +70,7 @@ i {
         a {
             color: $color-dark;
             &:hover {
-                color: $color-indigo;
+                color: $color-purple;
             }
         }
     }
@@ -99,7 +89,7 @@ i {
         li {
             font-size: 1.25em;
             a:hover {
-                color: $color-indigo;
+                color: $color-purple;
             }
         }
     }
@@ -286,15 +276,11 @@ header {
     h2 {
         position: relative;
         margin-bottom: 30px;
-        &::after {
-            content: '';
-            position: absolute;
-            height: 4px;
-            width: 65px;
-            border-radius: 5px;
-            left: 0;
-            bottom: -10px;
-            background-color: $color-blue;
+        .initial{
+            background-color: $color-yellow;
+            width: 1em;
+            height: 1em;
+            padding: 0 .2em;
         }
     }
     .about-info {
@@ -308,8 +294,11 @@ header {
 #contact {
     .section-heading {
         h2 {
-            &::after {
-                background: $color-indigo;
+            .initial{
+                background-color: $color-purple;
+                width: 1em;
+                height: 1em;
+                padding: 0 .2em;
             }
         }
     }
@@ -345,16 +334,11 @@ header {
 #donations {
     .section-heading {
         h2 {
-            &::after {
-                background: $color-magenta;
-                content: '';
-                position: absolute;
-                height: 1em;
-                z-index:-1;
+            .initial { 
+                background-color: $color-orange;
                 width: 1em;
-                border-radius: 0px;
-                left: -5px;
-                bottom: 10px;
+                height: 1em;
+                padding: 0 .2em;
             }
         }
     }
@@ -633,4 +617,24 @@ footer {
             padding-top: 110px!important
         }
     }
+}
+
+
+.color-yellow {
+    color: $color-yellow;
+}
+.color-green {
+    color: $color-green;
+}
+.color-blue {
+    color: $color-blue;
+}
+.color-purple {
+    color: $color-purple;
+}
+.color-red {
+    color: $color-red;
+}
+.color-orange {
+    color: $color-orange;
 }
