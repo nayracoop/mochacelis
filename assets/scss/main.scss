@@ -348,6 +348,15 @@ header {
             }
         }
     }
+    p {
+        text-align: justify;
+    }
+    .donation-type {
+        padding: 20px 0;
+        button {
+            margin: 20px;
+        }
+    }
 }
 
 footer {
