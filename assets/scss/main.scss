@@ -109,12 +109,16 @@ i {
     color: #FFF;
 }
 
-.logo {
-    height: 65px;
+#logo {
+    width: 300px;
+    padding-top: 20vh;
+    margin: auto;
 }
 
 header {
     transition: background-color .3s ease-in-out;
+    background: $color-dark;
+    text-transform: uppercase;
     .social-links-fixed {
         right: -40px;
         transition: right .3s ease-in-out;
@@ -250,7 +254,6 @@ header {
 }
 
 #cover {
-    background-image: url('../static/img/main-bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: $color-dark;
@@ -268,26 +271,11 @@ header {
             font-size: 1.125rem;
             padding: .75rem 2.75rem;
             border: $color-dark;
+            margin: .75rem .75rem;
         }
         * {
             position: relative;
             z-index: 1;
-        }
-        &::before {
-            content: "";
-            position: absolute;
-            top: 50%;
-            right: 10px;
-            margin-top: -530px;
-            width: 1080px;
-            height: 1080px;
-            z-index: 0;
-            background: rgba(234, 234, 234, .85);
-            //background-color: rgba(220, 217, 212, .85); 
-            background-image: linear-gradient(to bottom, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.20) 50%);
-            background-blend-mode: soft-light,screen;
-            border-top-right-radius: 100%;
-            border-bottom-right-radius: 100%;
         }
     }
 }
@@ -295,7 +283,7 @@ header {
 #about {
     h2 {
         position: relative;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         &::after {
             content: '';
             position: absolute;
@@ -308,9 +296,10 @@ header {
         }
     }
     .about-info {
-        background-position: top right;
-        background-repeat: no-repeat;
         padding-bottom: 65px;
+        p {
+            text-align: justify;
+        }
     }
 }
 
@@ -422,7 +411,6 @@ footer {
         font-size: 1.65rem;
     }
     #cover {
-        background-image: url('../static/img/main-bg-mob.jpg');
         background-attachment: scroll;
         .cover-info {
             h2 {
@@ -507,13 +495,14 @@ footer {
 
 @media all and (max-width:991px) {
     .logo {
-        height: 50px;
+        height: 100px;
+        margin: auto;
     }
     h3 {
         font-size: 1.75rem;
     }
     header {
-        background: white;
+        background: $color-dark;
         nav {
             #nav-collapse {
                 height: 100vh;
@@ -542,7 +531,7 @@ footer {
 
                     &.cta-item {
                         border: none;
-                        color: $color-dark;
+                        color: white;
                         a.nav-link {
                             background: transparent;
                             padding: .5rem 1rem;
@@ -587,11 +576,7 @@ footer {
     }
 
     #cover {        
-        .cover-info {
-            &::before { 
-                right: -30px!important;
-            }
-        }
+
     }
 }
 

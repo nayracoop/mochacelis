@@ -6,7 +6,36 @@
     },
     "about": {
         "title": "About Mocha",
-        "content": "\"La Mocha\" se conoce formalmente como la Unidad de Gestión Educativa Experimental (UGEE) No. 16. Es una escuela secundaria fundada en el 2011 cuya misión es promover la inclusión de personas trans/travestis de manera no exclusiva en la educación formal para subsanar la brecha de oportunidades y la discriminación estructural que enfrentan. La Mocha nace en el cruce de 30 anos de activismo travesti/ trans y más de 10 años de la existencia de Bachilleratos populares. La Mocha Celis empodera a sus estudiantes con educación gratuita y de calidad; forma líderes que potencian el movimiento trans; y promueve la integración en la fuerza laboral con estrategias diversas."
+        "content": [
+            {
+                "subtitle": "¿Qué es el Bachillerato Popular Travesti-Trans Mocha Celis?",
+                "text": "\"La Mocha\" se conoce formalmente como la Unidad de Gestión Educativa Experimental (UGEE) No. 16. Es una escuela secundaria fundada en el 2011 cuya misión es promover la inclusión de personas trans/travestis de manera no exclusiva en la educación formal para subsanar la brecha de oportunidades y la discriminación estructural que enfrentan. La Mocha nace en el cruce de 30 anos de activismo travesti/ trans y más de 10 años de la existencia de Bachilleratos populares. La Mocha Celis empodera a sus estudiantes con educación gratuita y de calidad; forma líderes que potencian el movimiento trans; y promueve la integración en la fuerza laboral con estrategias diversas."
+            },
+            {
+                "subtitle": "¿Por qué se llama \"Mocha Celis\" ?",
+                "text": "El Bachillerato se llama así en memoria de una travesti tucumana que trabajó con LohanaBerkins en la zona de Flores y fue asesinada de tres tiros, se cree que por la policía en unasituación aún no esclarecida. Mocha no sabía leer ni escribir, y le pedía a Lohana que leleyera.  En  palabras  de  Lohana,  “cuando  llegábamos  a  la  comisaría  dete-  nidas,  ellasiempre  me  pedía  a  mí  que  le  leyera.  Me  acuerdo  de  que  cuando  estábamos  en  loscalabozos había otra trava, que era una chica súper erudita, y yo le dije: \"Aprovechemosque estamos acá adentro y enseñale a Mocha. Pero hacelo de manera que ella no sesienta mal, que no se sienta menos\". Mocha murió sin poder terminar el secundario. Estorefleja la misión del Bachillerato Popular Travesti Trans Mocha Celis, cuyo espacio tienecomo objetivo que nadie, en especial las personas trans, esté privado del acceso a laeducación."
+            },
+            {
+                "subtitle": "¿Quiénes son nuestres estudiantes?",
+                "text": "Actualmente, la Mocha Celis tiene 130 estudiantes de entre 16 y 60 años. Fue creada paralas personas travesti-trans, que en Argentina, experimentan una especie de círculo vicioso(no  lineal)  de  discriminación  –  violencia  -  exclusión  del  sistema  educativo  -  falta  deopciones laborales – HIV / otras enfermedades / adicciones – exclusión del sistema desalud,  etc.  –  que  termina  en  una  expectativa  de  vida  de  35  años.  Es  una  escuela  noexclusiva (también asisten personas no trans, pueden ser LGBI o personas marginadascomo  afrodescendientes,  migrantes,  o  madres  solteras).  Al  ser  personas  que  muchasveces no creen tener el derecho a estar en un aula, reclutamos estudiantes activamenteen los lugares de concentración de personas trans (hoteles, zonas de trabajo, etc.)."
+            },
+            {
+                "subtitle": "¿Qué es lo que distingue la Mocha Celis?",
+                "text": "Fue la primera escuela trans en el mundo: hoy es un espacio de referencia que provocó lacreación de programas similares en Tucumán, Brasil, Costa Rica, y Chile"
+            },
+            {
+                "subtitle": "¿Cuáles son nuestros logros más importantes?",
+                "text": "Desde el 2014, 5 cohortes de egresades recibieron su título de Perito Auxiliar en Desarrollode  las  Comunidades,  permitiendo  dar  continuidad  a  su  formación  académica  encualquier universidad del país.Inserción laboral: varies egresades han ocupado puestos endependencias  públicas  (3  en  el  Ministerio  Publico  Fiscal,  2  en  Superintendencia  deSeguros  de  la  Nación,  2  en  el  Ministerio  de  Transporte,  1  en  Banco  Provincia,  1  en  elgobierno de la Ciudad de Buenos Aires, 1 en Desarrollo Social) y en empresas privadas (porejemplo, Lagash, entre otras)."
+            },
+            {
+                "subtitle": "¿Porqué se llama \"la escuela  ternura\"?",
+                "text": "Les estudiantes han bautizado a la Mocha Celis “la escuela ternura” por brindar un espaciode amor, cuidado y contención. Esto nos motiva y a la vez implica un esfuerzo continuode parte del equipo."
+            },
+            {
+                "subtitle": "¿Cómo se financia la Mocha Celis?",
+                "text": "La Mocha Celis no cuenta con un financiamiento integral. Se financia principalmente conel aporte del gobierno para sueldos mínimos de la planta orgánica funcional (POF), esdecir  el  salario  del  equipo  directivo  de  3  personas  (tiempo  completo)  y  16  docentes(tiempo parcial). Otras 30 personas otorgan su tiempo, entre psicólogues, trabajadoressociales,  bibliotecaries,  una  psicopedagoga,  y  docentes  que  dan  apoyo  escolar  ypedagógico.  El  funcionamiento  de  la  escuela  depende  de  aportes  de  les  mismesdocentes que donan dinero y materiales de su bolsillo; aportes solidarios de estudiantes yotres individues; y la realización de eventos para recaudación de fondos."
+            }
+        ]
     },
     "donations": {
         "title": "Donations",
