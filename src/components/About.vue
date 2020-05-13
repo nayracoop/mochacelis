@@ -1,7 +1,7 @@
 <template>
   <section id="about">
     <b-container>
-      <b-row class="about-info">
+      <b-row class="about">
         <b-col class="col-12 col-md-6 mb-1">
           <h2 class="pb-2">
             {{ $t('about.title') }}
@@ -9,7 +9,7 @@
         </b-col>
       </b-row>
        <b-row class="about-info">
-        <b-col class="col-12 col-md-6 mb-1">
+        <b-col class="col-12 col-md-8 mb-1">
           <h4 class="pb-2">
             {{ $t('about.content[0].subtitle') }}
           </h4>
@@ -25,7 +25,7 @@
         </b-col>
       </b-row>
       <b-row class="about-info">
-        <b-col class="col-12 col-md-6 mb-1">
+        <b-col class="col-12 col-md-8 mb-1">
           <h4 class="pb-2">
             {{ $t('about.content[2].subtitle') }}
           </h4>
@@ -33,7 +33,7 @@
         </b-col>
       </b-row>
       <b-row class="about-info">
-        <b-col class="col-12 col-md-6 mb-1">
+        <b-col class="col-12 col-md-8 mb-1">
           <h4 class="pb-2">
             {{ $t('about.content[3].subtitle') }}
           </h4>
@@ -41,7 +41,7 @@
         </b-col>
       </b-row>
       <b-row class="about-info">
-        <b-col class="col-12 col-md-6 mb-1">
+        <b-col class="col-12 col-md-8 mb-1">
           <h4 class="pb-2">
             {{ $t('about.content[4].subtitle') }}
           </h4>
@@ -49,7 +49,7 @@
         </b-col>
       </b-row>
       <b-row class="about-info">
-        <b-col class="col-12 col-md-6 mb-1">
+        <b-col class="col-12 col-md-8 mb-1">
           <h4 class="pb-2">
             {{ $t('about.content[5].subtitle') }}
           </h4>
@@ -57,7 +57,7 @@
         </b-col>
       </b-row>
       <b-row class="about-info">
-        <b-col class="col-12 col-md-6 mb-1">
+        <b-col class="col-12 col-md-8 mb-1">
           <h4 class="pb-2">
             {{ $t('about.content[6].subtitle') }}
           </h4>
