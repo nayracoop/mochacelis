@@ -5,10 +5,15 @@
         <b-col>
           <b-navbar
             toggleable="lg"
-            type="dark"
+            type="light"
           >
             <b-navbar-brand href="#cover">
               <h1>
+                <img
+                  src="static/img/logo-header.png"
+                  alt="Mocha Celis logo"
+                  class="header-logo"
+                >
                 <b class="sr-only"><abbr title="Bachillerato Popular Trans Mocha Celis">La Mocha Celis</abbr></b>
               </h1>
             </b-navbar-brand>
