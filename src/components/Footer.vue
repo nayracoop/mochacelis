@@ -3,7 +3,11 @@
     <b-container>
       <b-row>
         <b-col>
-          <div>
+          <h2 class="pb-2">
+            <span class="initial">
+              {{$t('contact.title')[0]}}</span>{{ $t('contact.title').substr(1)}}
+          </h2>
+          <div class="col-12 col-md-6">
             <p>Bachillerato Popular Trans Mocha Celis</p>
             <p>Av. Federico Lacroze 4181, 5to piso.</p>
             <p>Buenos Aires, Bs. As.</p>
@@ -33,20 +37,21 @@
               ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
             </li>
           </ul>
-          <small class="mb-5 made-with" v-html="$t('footer.signature')"></small>
-
-          <div class="licence-cont">
-            <a
-              rel="license"
-              href="http://creativecommons.org/licenses/by-sa/4.0/"
-            >
-              <img
-                class="mb-2"
-                alt="Licencia Creative Commons"
-                src="static/img/licence.png"
+          <div class="real-footer">
+            <small class="mb-3 made-with" v-html="$t('footer.signature')"></small>
+            <div class="licence-cont">
+              <a
+                rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/"
               >
-            </a>
-            <small class="licence">{{ $t('footer.licence') }} <a href="http://creativecommons.org/licenses/by-sa/4.0/">{{ $t('footer.licenceLinkTitle') }}</a>.</small>
+                <img
+                  class="mb-2"
+                  alt="Licencia Creative Commons"
+                  src="static/img/licence.png"
+                >
+              </a>
+              <small class="licence">{{ $t('footer.licence') }} <a href="http://creativecommons.org/licenses/by-sa/4.0/">{{ $t('footer.licenceLinkTitle') }}</a>.</small>
+            </div>
           </div>
         </b-col>
       </b-row>
