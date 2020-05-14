@@ -265,20 +265,22 @@ header {
         .btn {
             font-size: 1.125rem;
             padding: .75rem 2.75rem;
-            border: $color-dark;
             margin: .75rem .75rem;
         }
-        * {
-            position: relative;
-            z-index: 1;
-        }
     }
-    .cover-logo {
+    .cover-image {
         position: relative;
         margin: auto;
-        #logo {
-            width: 300px;
-            margin: auto;
+        width: 300px;
+        display: block;
+    }
+    .cover-button {
+        font-size: 1em;
+        width: 90%;
+        margin: 10px auto;
+        border:none;
+        &:hover {
+            opacity: 85%;
         }
     }
 }
@@ -405,7 +407,7 @@ header {
                     display: inline-block;
                     border-bottom: 1px solid transparent;
                     &:hover {
-                        color: $color-dark;
+                        color: $color-purple;
                     }
                 }
             }

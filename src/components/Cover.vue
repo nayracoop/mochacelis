@@ -3,57 +3,38 @@
     id="cover"
     class="min-vh-100 d-flex flex-column align-items-center align-content-center"
   >
-    <b-container>
-      <b-row class="min-vh-100 w-100">
-        <b-col class="col-12 col-md-6 cover-logo">
-          <img
-            src="static/img/logo.png"
-            alt="Bachillerato Popular Travesti - Trans Mocha Celis"
-            id="logo"
-          >
-        </b-col>
-        <b-col class="col-12 col-md-6 cover-info">
-          <h2 class="mb-4">
-            {{ $t('cover.title') }}
-          </h2>
-          <h1 class="mb-4">
-            {{ $t('cover.subtitle') }}
-          </h1>
+    <b-container class="min-vh-100 w-100 cover-info">
+      <b-row>
+        <b-col class="col-12 mb-5" >
+          <h2> {{ $t('cover.subtitle') }} </h2>
           <p>
             {{$t('cover.content[0]')}}
           </p>
           <p>
             {{$t('cover.content[1]')}}
           </p>
-          <b-button href="#contact">
-            {{ $t('cover.btn-text') }}
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="col-12 col-md-6">
+          <img
+            src="static/img/logo.png"
+            alt="Bachillerato Popular Travesti - Trans Mocha Celis"
+            class="col-12 cover-image m-auto"
+          >
+          <b-button class="cover-button mt-4" href="#contact">
+            {{ $t('cover.title') }}
           </b-button>
-          <b-button href="#donations">
+        </b-col>
+        <b-col class="col-12 col-md-6">
+          <img
+            src="static/img/logo.png"
+            alt="Bachillerato Popular Travesti - Trans Mocha Celis"
+            class="col-12 cover-image m-auto"
+          >
+          <b-button class="cover-button mt-4" href="#donations">
             {{ $t('donations.donate') }}
           </b-button>
-          <ul class="social-links">
-            <li>
-              <a
-                target="_blank"
-                href="https://www.facebook.com/BachiTransMocha/"
-                title="Facebook"
-              ><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/mochacelis/"
-                title="Instagram"
-              ><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://twitter.com/mochacelis"
-                title="Twitter"
-              ><font-awesome-icon :icon="['fab', 'twitter']" /></a>
-            </li>
-          </ul>
         </b-col>
       </b-row>
     </b-container>
