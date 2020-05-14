@@ -1,7 +1,11 @@
 {
     "cover": {
         "title": "Terminá el secundario",
-        "content": "Mocha Celis Bachillerato Trans",
+        "subtitle": "UGEE N°16 M.E. GCBA",
+        "content": [
+            "Plan de Estudios (3 años)",
+            "Bachiller Peritx Auxiliar en Desarrollo de las Comunidades"
+        ],
         "btn-text": "Inscripciones 2020"
     },
     "about": {

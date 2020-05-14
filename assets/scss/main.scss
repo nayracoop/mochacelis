@@ -26,7 +26,7 @@ h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h2 {
@@ -34,7 +34,8 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.3rem;
+
 }
 i {
     font-style: italic;
@@ -62,9 +63,11 @@ i {
 }
 
 .social-links {
+    margin:auto;
+    text-align: center;
     li {
         display: inline-block;
-        margin-right: 20px;
+        margin: 20px 40px;
         font-size: 1.25em;
 
         a {
@@ -101,11 +104,7 @@ i {
     color: #FFF;
 }
 
-#logo {
-    width: 300px;
-    padding-top: 20vh;
-    margin: auto;
-}
+
 
 header {
     transition: background-color .3s ease-in-out;
@@ -253,8 +252,11 @@ header {
     overflow: hidden;
     .cover-info {
         position: relative;
+        margin: auto;
         h2 {
-            font-size: 2.85rem;
+            font-size: 2.65rem;
+            margin: auto;
+            text-align: center;
         }
         p {
             font-size: 1.125rem;
@@ -268,6 +270,14 @@ header {
         * {
             position: relative;
             z-index: 1;
+        }
+    }
+    .cover-logo {
+        position: relative;
+        margin: auto;
+        #logo {
+            width: 300px;
+            margin: auto;
         }
     }
 }
@@ -403,6 +413,7 @@ footer {
         }
     }
 }
+
 @media all and (max-width: 450px) {
     .nav-item {
         margin-bottom: 10px!important;
@@ -614,7 +625,7 @@ footer {
 @media all and (max-height: 800px) {
     #cover {
         .cover-info {
-            padding-top: 110px!important
+            padding-top: 100px!important
         }
     }
 }
