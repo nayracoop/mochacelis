@@ -40,6 +40,13 @@
                 title="Twitter"
               ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
             </li>
+             <li class="mt-1 mb-1">
+              <a
+                target="_blank"
+                href="#"
+                title="Mail"
+              ><font-awesome-icon :icon="['fas','envelope']" /><span class="sr-only">Mail</span></a>
+            </li>
           </ul>
         </b-col>
       </b-row>
