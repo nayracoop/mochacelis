@@ -6,13 +6,7 @@
     <b-container class="min-vh-100 w-100 cover-info">
       <b-row>
         <b-col class="col-12 mb-5" >
-          <h2> {{ $t('cover.subtitle') }} </h2>
-          <p>
-            {{$t('cover.content[0]')}}
-          </p>
-          <p>
-            {{$t('cover.content[1]')}}
-          </p>
+          <h1> {{ $t('cover.title') }} </h1>
         </b-col>
       </b-row>
       <b-row>
@@ -20,19 +14,19 @@
           <img
             src="static/img/logo.png"
             alt="Bachillerato Popular Travesti - Trans Mocha Celis"
-            class="col-12 cover-image m-auto"
+            class="col-12 cover-image"
           >
-          <b-button class="cover-button mt-4" href="#contact">
-            {{ $t('cover.title') }}
+          <b-button class="cover-button" href="#contact">
+            {{ $t('cover.btn-text') }}
           </b-button>
         </b-col>
         <b-col class="col-12 col-md-6">
           <img
             src="static/img/logo.png"
             alt="Bachillerato Popular Travesti - Trans Mocha Celis"
-            class="col-12 cover-image m-auto"
+            class="col-12 cover-image"
           >
-          <b-button class="cover-button mt-4" href="#donations">
+          <b-button class="cover-button" href="#donations">
             {{ $t('donations.donate') }}
           </b-button>
         </b-col>
