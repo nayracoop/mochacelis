@@ -1,13 +1,17 @@
 <template>
-  <footer id="footer" class="text-center bg-grey">
+  <footer id="footer" class="bg-grey">
     <b-container>
       <b-row>
-        <b-col>
+        <b-col class="col-12 col-md-6 section-heading">
           <h2 class="pb-2">
             <span class="initial">
               {{$t('contact.title')[0]}}</span>{{ $t('contact.title').substr(1)}}
           </h2>
-          <div class="col-12 col-md-6">
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="col-12 col-md-4">
+          <div class="contact-info">
             <p>Bachillerato Popular Trans Mocha Celis</p>
             <p>Av. Federico Lacroze 4181, 5to piso.</p>
             <p>Buenos Aires, Bs. As.</p>
@@ -37,8 +41,12 @@
               ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
             </li>
           </ul>
-          <div class="real-footer">
-            <small class="mb-3 made-with" v-html="$t('footer.signature')"></small>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="col-12">
+          <div class="real-footer text-center">
+            <small class="mb-3 made-with mt-3" v-html="$t('footer.signature')"></small>
             <div class="licence-cont">
               <a
                 rel="license"

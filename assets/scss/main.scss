@@ -358,15 +358,23 @@ header {
     }
     .donation-type {
         padding-bottom: 10px;
-        button {
-            margin: 20px;
+        .donate-button {
+            width: 80%;
+            margin: 10px auto;
+            border:none;
+            &:hover {
+                opacity: 85%;
+            }
         }
+
     }
 }
 
-#footer {
+#footer {    
     .section-heading {
         h2 {
+            position: relative;
+            margin-bottom: 30px;
             .initial{
                 background-color: $color-purple;
                 width: 1em;
@@ -377,6 +385,10 @@ header {
     }
     padding-top: 65px;
     padding-bottom: 35px;
+
+    .contact-info {
+        text-align: left;
+    }
 
     nav {
         ul.navbar-nav {
@@ -659,4 +671,23 @@ header {
 }
 .color-orange {
     color: $color-orange;
+}
+
+.b-yellow {
+    background-color: $color-yellow!important;
+}
+.b-green {
+    background-color: $color-green!important;
+}
+.b-blue {
+    background-color: $color-blue!important;
+}
+.b-purple {
+    background-color: $color-purple!important;
+}
+.b-red {
+    background-color: $color-red!important;
+}
+.b-orange {
+    background-color: $color-orange!important;
 }

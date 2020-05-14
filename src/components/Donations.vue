@@ -12,20 +12,15 @@
       <b-row>
         <b-col class="col-12 col-md-4">
           <div class="donation-type">
-            <h4>Donación única (dentro de Argentina)</h4>
-            <b-button>{{ $t('donations.donate') }}</b-button>
-            <b-button>{{ $t('donations.donate') }}</b-button>
-            <b-button>{{ $t('donations.donate') }}</b-button>
+            <h4>Dentro de Argentina</h4>
+            <p><em>via MercadoPago</em></p>
+            <b-button class="donate-button b-green">{{ $t('donations.donateOnce') }}</b-button>
+            <b-button class="donate-button b-blue">{{ $t('donations.suscripcion') }}</b-button>
           </div>
           <div class="donation-type">
-            <h4>Donación única (dentro de Argentina)</h4>
-            <b-button>{{ $t('donations.donate') }}</b-button>
-            <b-button>{{ $t('donations.donate') }}</b-button>
-            <b-button>{{ $t('donations.donate') }}</b-button>
-          </div>
-          <div class="donation-type">
-            <h4>Donar desde el exterior de Argentina</h4>
-            <b-button>{{ $t('donations.donate') }}</b-button>
+            <h4>Desde el exterior</h4>
+            <p><em>via PayPal</em></p>
+            <b-button class="donate-button b-purple">{{ $t('donations.donateOnce') }}</b-button>
           </div>
         </b-col>   
          <b-col class="col-12 col-md-8">
