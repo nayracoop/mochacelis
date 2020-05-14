@@ -11,7 +11,7 @@
       </b-row>
       <b-row>
         <b-col class="col-12 col-md-4">
-          <div class="donation-type">
+          <div class="donation-type mb-5">
             <h4>Dentro de Argentina</h4>
             <p><em>via MercadoPago</em></p>
             <b-button class="donate-button b-green">{{ $t('donations.donateOnce') }}</b-button>

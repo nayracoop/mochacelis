@@ -55,9 +55,9 @@ i {
     margin-top: 70px;
     h2 {
         .initial { 
-            width: 1em;
-            height: 1em;
-            padding: 0 .2em;
+            width: 0.9em;
+            height: 0.9em;
+            padding: 0 .1em;
         }
     }
 }
@@ -165,7 +165,7 @@ header {
         padding: 0;
 
         li.nav-item {
-            margin: 0 15px;
+            margin: 0 30px;
             font-size: .7em;
             &.cta-item {
                 color: white;
@@ -359,12 +359,16 @@ header {
     .donation-type {
         padding-bottom: 10px;
         .donate-button {
-            width: 80%;
+            font-size: 1em;
+            width: 90%;
             margin: 10px auto;
             border:none;
             &:hover {
                 opacity: 85%;
             }
+        }
+        em {
+            font-style: italic;
         }
 
     }

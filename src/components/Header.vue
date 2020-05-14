@@ -55,7 +55,6 @@
                 <b-nav-item
                   href="#footer"
                   :class="{ active: highlight === 'contact'}"
-                  class="cta-item"
                 >
                   {{ $t('Contact us') }}
                 </b-nav-item>
