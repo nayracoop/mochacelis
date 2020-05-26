@@ -9,7 +9,7 @@
         "btn-text": "Terminá el secundario"
     },
     "about": {
-        "title": "Acerca de La Mocha",
+        "title": "Quiénes Somos",
         "content": [
             {
                 "subtitle": "¿Qué es el Bachillerato Popular Travesti-Trans Mocha Celis?",
@@ -54,7 +54,7 @@
     },
 
     "contact": {
-        "title": "Contacto"
+        "title": "Contactanos"
     },
     "footer": {
         "signature": "<span>&lt;/&gt;</span> con <span>♥</span> por cooperativistas",
@@ -62,28 +62,18 @@
         "licenceLinkTitle": "Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)"
     },
     "Open": "Abrir",
-    "About Mocha Celis": "¿Quién es la Mocha?",
-    "Donations": "Colaborá",
-    "Case studies": "Casos de éxito",
-    "Contact us": "Contacto",
+    "About Mocha Celis": "Quiénes Somos",
+    "Donate": "Colaborá",
+    "Contact Us": "Contactanos",
     "This field is required": "Este campo es requerido",
     "Email address": "Email",
     "Enter your email address": "Ingrese su email",
-    "Company name": "Nombre empresa",
-    "Enter your company name": "Ingrese el nombre de su empresa",
     "Name": "Nombre completo",
     "Enter your name": "Ingrese su nombre completo",
-    "¿What are you looking for?": "¿Qué está buscando?",
     "Message": "Mensaje",
     "Enter your message": "Ingrese su mensaje",
     "Send": "Enviar",
     "Message sent. Thank you!": "Mensaje enviado. ¡Muchas gracias!",
     "An error occurred while trying to send your message.": "Ocurrió un error al intentar enviar su mensaje.",
-    "Error sending message": "Error al enviar el mensaje",
-    "Select service": "Seleccione el servicio",
-    "Training and Consultancy": "Capacitación y consultoría",
-    "Design and communication": "Diseño y comunicación",
-    "Development": "Desarrollo",
-    "Infrastructure": "Infraestructura",
-    "Other services": "Otros servicios"
+    "Error sending message": "Error al enviar el mensaje"
 }
