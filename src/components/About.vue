@@ -15,6 +15,7 @@
             {{ $t('about.content[0].subtitle') }}
           </h4>
           <p>{{ $t('about.content[0].text') }}</p>
+          <p class="mb-2 comment" v-if="$t('about.content[0].comment')">{{$t('about.content[0].comment')}}</p>
         </b-col>
       </b-row>
       <b-row class="about-info">
