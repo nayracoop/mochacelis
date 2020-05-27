@@ -53,7 +53,7 @@ i {
     background: rgba(244, 244, 244, 0.3);
 }
 .section-heading {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 70px;
     h2 {
         .initial { 
@@ -380,7 +380,7 @@ header {
     .section-heading {
         h2 {
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: 0;
             .initial{
                 background-color: $color-purple;
                 width: 1em;
@@ -397,6 +397,22 @@ header {
     }
     .address {
         text-align: left;
+        padding: 15px;
+        p {
+            margin-bottom: 2px;
+        }
+    }
+    .email-list {
+        text-align: left;
+        padding: 15px;
+        p {
+            margin-bottom: 2px;
+            font-weight: bold;
+        }
+        a {
+            display: block;
+            margin-bottom: 10px;
+        }
     }
 
     #map {
@@ -406,7 +422,7 @@ header {
     }
 
     .social-links li {
-        margin: 25px 30px 0 0!important;
+        margin: 0px 30px 0 0!important;
     }
     small {
         display: block;
