@@ -380,7 +380,7 @@ header {
     .section-heading {
         h2 {
             position: relative;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             .initial{
                 background-color: $color-purple;
                 width: 1em;
@@ -392,30 +392,21 @@ header {
     padding-top: 65px;
     padding-bottom: 35px;
 
-    .contact-info {
+    .contact-body {
+        justify-content: space-around;
+    }
+    .address {
         text-align: left;
     }
 
-    nav {
-        ul.navbar-nav {
-            flex-direction: row;
-            justify-content: center;
-
-            li {
-                margin: 0 15px;
-                a {
-                    display: inline-block;
-                    border-bottom: 1px solid transparent;
-                    &:hover {
-                        color: $color-purple;
-                    }
-                }
-            }
-        }
+    #map {
+        margin: auto;
+        min-height: 300px;
+        width: 90%;
     }
 
     .social-links li {
-        margin: 0 18px!important;
+        margin: 25px 30px 0 0!important;
     }
     small {
         display: block;

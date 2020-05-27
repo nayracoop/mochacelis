@@ -3,22 +3,22 @@
     <b-container>
       <b-row>
         <b-col class="col-12 col-md-6 section-heading">
-          <h2 class="pb-2">
+          <h2>
             <span class="initial">
               {{$t('contact.title')[0]}}</span>{{ $t('contact.title').substr(1)}}
           </h2>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col class="col-12 col-md-4 contact-data">
-          <div class="contact-info">
+      <b-row class="contact-body mb-5">
+        <b-col class="col-12 col-md-4">
+          <div class="address mb-5">
             <p>Bachillerato Popular Trans Mocha Celis</p>
             <p>Av. Federico Lacroze 4181, 5to piso.</p>
             <p>Buenos Aires, Bs. As.</p>
             <p>C1427EDG ARGENTINA</p>
             <p>Tel: +54 (011) 4554-9048</p>
           </div>
-          <ul class="social-links mb-5">
+          <ul class="social-links">
             <li>
               <a
                 target="_blank"
@@ -50,7 +50,10 @@
           </ul>
         </b-col>
         <b-col class="col-12 col-md-8 map">
-          <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Bachillerato%20Popular%20Trans%20Mocha%20Celis&key=AIzaSyCLVhr-tpYjB_FRMDqefWyvrOLXO9-Oq9g" allowfullscreen></iframe> 
+          <iframe 
+            id="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6569.3518211253695!2d-58.458708037097146!3d-34.58706615504157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd437cf863662c1c2!2sBachillerato%20Popular%20Mocha%20Celis!5e0!3m2!1ses-419!2sar!4v1590551191925!5m2!1ses-419!2sar" 
+            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </b-col>
       </b-row>
       <b-row>
