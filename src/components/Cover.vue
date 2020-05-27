@@ -16,7 +16,7 @@
             alt="Bachillerato Popular Travesti - Trans Mocha Celis"
             class="col-12 cover-image"
           >
-          <b-button class="cover-button" href="#contact">
+          <b-button class="cover-button" href="preceptoria@bachilleratomochacelis.edu.ar">
             {{ $t('cover.btn-text') }}
           </b-button>
         </b-col>

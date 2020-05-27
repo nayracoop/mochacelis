@@ -54,7 +54,7 @@ i {
 }
 
 .section-heading {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 70px;
     h2 {
         .initial {
@@ -376,8 +376,9 @@ header {
     .section-heading {
         h2 {
             position: relative;
-            margin-bottom: 30px;
-            .initial {
+            margin-bottom: 0;
+            .initial{
+
                 background-color: $color-purple;
                 width: 1em;
                 height: 1em;
@@ -387,27 +388,39 @@ header {
     }
     padding-top: 65px;
     padding-bottom: 35px;
-    .contact-info {
-        text-align: left;
+  
+    .contact-body {
+        justify-content: space-around;
     }
-    nav {
-        ul.navbar-nav {
-            flex-direction: row;
-            justify-content: center;
-            li {
-                margin: 0 15px;
-                a {
-                    display: inline-block;
-                    border-bottom: 1px solid transparent;
-                    &:hover {
-                        color: $color-purple;
-                    }
-                }
-            }
+    .address {
+        text-align: left;
+        padding: 15px;
+        p {
+            margin-bottom: 2px;
         }
     }
+
+    .email-list {
+        text-align: left;
+        padding: 15px;
+        p {
+            margin-bottom: 2px;
+            font-weight: bold;
+        }
+        a {
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+
+    #map {
+        margin: auto;
+        min-height: 300px;
+        width: 90%;
+    }
+
     .social-links li {
-        margin: 0 18px!important;
+        margin: 0px 30px 0 0!important;
     }
     small {
         display: block;
@@ -445,7 +458,6 @@ header {
         font-size: 1.65rem;
     }
     #cover {
-        background-attachment: scroll;
         .cover-info {
             h2 {
                 //padding-top: 60px;
@@ -463,19 +475,6 @@ header {
 }
 
 @media all and (max-width:768px) {
-    #cover {
-        &::before {
-            right: 10%;
-        }
-    }
-    .methodology-chart {
-        display: none;
-    }
-    .methodology-chart-mob {
-        max-width: 300px;
-        margin: 0 auto;
-        display: block;
-    }
     #about {
         .about-info {
             background-image: none;
@@ -509,12 +508,6 @@ header {
                 }
             }
         }
-    }
-}
-
-@media all and (min-width: 769px) {
-    .methodology-chart-mob {
-        display: none;
     }
 }
 
