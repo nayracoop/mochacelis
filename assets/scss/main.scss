@@ -449,7 +449,6 @@ header {
         font-size: 1.65rem;
     }
     #cover {
-        background-attachment: scroll;
         .cover-info {
             h2 {
                 //padding-top: 60px;
@@ -469,22 +468,6 @@ header {
 
 
 @media all and (max-width:768px) {
-    #cover {        
-        &::before { 
-            right: 10%;
-        }
-    }
-
-    .methodology-chart { 
-        display: none;
-    }
-    
-    .methodology-chart-mob {
-        max-width: 300px;
-        margin: 0 auto;
-        display: block;
-    }
-
     #about {
         .about-info {
             background-image: none;
@@ -522,12 +505,6 @@ header {
                 }
             }
         }
-    }
-}
-
-@media all and (min-width: 769px) {
-    .methodology-chart-mob {
-        display: none;
     }
 }
 
