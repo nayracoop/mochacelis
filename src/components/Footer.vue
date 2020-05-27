@@ -10,7 +10,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col class="col-12 col-md-4">
+        <b-col class="col-12 col-md-4 contact-data">
           <div class="contact-info">
             <p>Bachillerato Popular Trans Mocha Celis</p>
             <p>Av. Federico Lacroze 4181, 5to piso.</p>
@@ -48,6 +48,9 @@
               ><font-awesome-icon :icon="['fas','envelope']" /><span class="sr-only">Mail</span></a>
             </li>
           </ul>
+        </b-col>
+        <b-col class="col-12 col-md-8 map">
+          <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Bachillerato%20Popular%20Trans%20Mocha%20Celis&key=AIzaSyCLVhr-tpYjB_FRMDqefWyvrOLXO9-Oq9g" allowfullscreen></iframe> 
         </b-col>
       </b-row>
       <b-row>
