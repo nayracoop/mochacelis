@@ -50,13 +50,13 @@
                   href="#donations"
                   :class="{ active: highlight === 'donations' }"
                 >
-                  {{ $t('Donations') }}
+                  {{ $t('Donate') }}
                 </b-nav-item>
                 <b-nav-item
                   href="#footer"
                   :class="{ active: highlight === 'contact'}"
                 >
-                  {{ $t('Contact us') }}
+                  {{ $t('Contact Us') }}
                 </b-nav-item>
 
                 <b-nav-item-dropdown class="lang-selector" :text="$i18n.locale" right>
