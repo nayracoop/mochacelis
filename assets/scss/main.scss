@@ -434,6 +434,17 @@ header {
             }
         }
     }
+}
+
+#bottom {
+    hr {
+        display:block;
+        border:none;
+        height:10px;
+        background-image:url('../static/img/hr-guarda.png');
+        background-repeat: repeat-x;
+        background-size:contain;
+    } 
     .licence-cont {
         img {
             width: 70px;
@@ -441,10 +452,6 @@ header {
         small {
             font-size: .7rem;
         }
-    }
-    .real-footer {
-        border-top: 1px solid #bbb;
-        padding-top: 10px;
     }
 }
 

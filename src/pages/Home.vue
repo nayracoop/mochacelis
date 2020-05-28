@@ -5,6 +5,7 @@
     <about-section ref="about" />
     <donations-section ref="donations" />
     <mocha-footer />
+    <real-footer/>
   </div>
 </template>
 
@@ -14,6 +15,8 @@ import CoverSection from 'components/Cover.vue'
 import AboutSection from 'components/About.vue'
 import DonationsSection from 'components/Donations.vue'
 import MochaFooter from 'components/Footer.vue'
+import RealFooter from 'components/RealFooter.vue'
+
 
 export default {
   components: {
@@ -21,7 +24,8 @@ export default {
     CoverSection,
     AboutSection,
     DonationsSection,
-    MochaFooter
+    MochaFooter,
+    RealFooter
   },
   data () {
     return {
