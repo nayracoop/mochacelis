@@ -6,7 +6,8 @@
             "Plan de Estudios (3 años)",
             "Bachiller Peritx Auxiliar en Desarrollo de las Comunidades"
         ],
-        "btn-text": "Terminá el secundario"
+        "btn-text-1": "Finish high school",
+        "btn-text-2": "Donate"
     },
     "about": {
         "title": "About Mocha Celis ",

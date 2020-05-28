@@ -248,13 +248,13 @@ header {
 #cover {
     color: $color-dark;
     position: relative;
-    overflow: hidden;
     .cover-info {
         position: relative;
         margin: auto;
-        h2 {
-            font-size: 2.65rem;
+        h1 {
+            font-size: 2rem;
             margin: auto;
+            margin-top: 90px;
             text-align: center;
         }
         p {
@@ -263,7 +263,8 @@ header {
     }
     .cover-image {
         position: relative;
-        margin: 40px auto;
+        margin: auto;
+        margin-top: 10vh;
         width: 80%;
         display: block;
     }
