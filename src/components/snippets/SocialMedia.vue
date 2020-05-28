@@ -25,7 +25,7 @@
             <li class="mt-1 mb-1">
               <a
                 target="_blank"
-                href="info@bachilleratomochacelis.edu.ar"
+                href="mailto: info@bachilleratomochacelis.edu.ar"
                 title="Mail"
               ><font-awesome-icon :icon="['fas','envelope']" :style="{ color: 'white' }"/><span class="sr-only">Mail</span></a>
             </li>

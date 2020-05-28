@@ -20,11 +20,11 @@
           </div>
           <div class="email-list">
             <p>Consultas generales: </p>
-            <a href="info@bachilleratomochacelis.edu.ar">info@bachilleratomochacelis.edu.ar</a>
+            <a href="mailto: info@bachilleratomochacelis.edu.ar">info@bachilleratomochacelis.edu.ar</a>
             <p>Apoyos y donaciones: </p>
-            <a href="cooperadora@bachilleratomochacelis.edu.ar">cooperadora@bachilleratomochacelis.edu.ar</a>
+            <a href="mailto: cooperadora@bachilleratomochacelis.edu.ar">cooperadora@bachilleratomochacelis.edu.ar</a>
             <p>Estudiantes:</p>
-            <a href="preceptoria@bachilleratomochacelis.edu.ar">preceptoria@bachilleratomochacelis.edu.ar</a>
+            <a href="mailto: preceptoria@bachilleratomochacelis.edu.ar">preceptoria@bachilleratomochacelis.edu.ar</a>
           </div>
           <ul class="social-links">
             <li>
@@ -51,7 +51,7 @@
              <li class="mt-1 mb-1">
               <a
                 target="_blank"
-                href="info@bachilleratomochacelis.edu.ar"
+                href="mailto: info@bachilleratomochacelis.edu.ar"
                 title="Mail"
               ><font-awesome-icon :icon="['fas','envelope']" /><span class="sr-only">Mail</span></a>
             </li>
