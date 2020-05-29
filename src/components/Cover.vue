@@ -12,7 +12,7 @@
       <b-row>
         <b-col class="col-12 col-md-6">
           <img
-            src="static/img/cover-image.png"
+            src="static/img/cover-image-1.png"
             alt="Bachillerato Popular Travesti-Trans Mocha Celis"
             class="col-12 cover-image"
           >
@@ -22,7 +22,7 @@
         </b-col>
         <b-col class="col-12 col-md-6">
           <img
-            src="static/img/cover-image.png"
+            src="static/img/cover-image-2.png"
             alt="Bachillerato Popular Travesti-Trans Mocha Celis"
             class="col-12 cover-image"
           >
