@@ -18,6 +18,16 @@ const routes = [
     }
   },
   {
+    path: '/en',
+    name: 'locale',
+    component: Home,
+    beforeEnter (to, from, next) {
+      document.documentElement.setAttribute('lang', 'en')
+      i18n.locale = 'en'
+      return next()
+    }
+  },
+  {
     path: '/:lang',
     name: 'locale',
     component: Home,
