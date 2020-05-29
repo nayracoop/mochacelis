@@ -5,6 +5,7 @@ body {
     background: #fff;
     color: $color-dark;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 body a {
@@ -251,6 +252,7 @@ header {
     color: $color-dark;
     position: relative;
     margin-top: 100px;
+    padding-bottom: 90px;
     .cover-info {
         position: relative;
         margin: auto;
