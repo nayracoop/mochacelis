@@ -70,7 +70,7 @@ i {
 
 .social-links {
     margin: auto;
-    text-align: center;
+    text-align: left;
     li {
         display: inline-block;
         margin: 20px 40px;
@@ -195,7 +195,8 @@ header {
             a.nav-link {
                 color: white;
                 padding: 0.5rem 0;
-                &:hover {
+                &:hover,
+                &:focus {
                     color: $color-yellow;
                 }
             }
@@ -208,6 +209,13 @@ header {
         li.lang-selector {
             text-transform: uppercase;
             a {
+                &.dropdown-toggle {
+                    color: $white!important;
+                    &:hover,
+                    &:active {
+                        color: $color-yellow!important;
+                    }
+                }
                 border-color: #FFF!important;
                 @media all and (max-width: 991px) {
                     border: 0!important;
@@ -223,6 +231,7 @@ header {
                     text-align: center;
                     a {
                         padding: 3px 15px;
+                        font-size: .7rem;
                         &:active {
                             background: unset;
                             color: unset;
@@ -311,8 +320,9 @@ header {
     }
     .about-info {
         margin: auto;
+        margin-bottom: 22px;
         p {
-            text-align: justify;
+            text-align: left;
         }
     }
 }
@@ -368,7 +378,7 @@ header {
         }
     }
     p {
-        text-align: justify;
+        text-align: left;
     }
     .donation-type {
         padding-bottom: 10px;
@@ -450,17 +460,20 @@ header {
         background-image:url('../static/img/hr-guarda.png');
         background-repeat: repeat-x;
         background-size:contain;
+        margin: 0px;        
+    }
+    .real-footer {
+        padding: 20px 0;
     } 
     .licence-cont {
         img {
-            width: 70px;
+            width: 58px;
         }
         small {
             font-size: .7rem;
         }
         a { 
-            display: inline-block;
-            padding-right: 15px;
+            display: block;
         }
     }
     small {
@@ -470,6 +483,11 @@ header {
             }
             span:last-of-type {
                 color: #ee6161;
+            }
+            &:hover {
+                span:first-of-type {
+                    color: #961888;
+                }
             }
         }
     }
@@ -603,8 +621,10 @@ header {
                                 li {
                                     margin: 0;
                                     a {
-                                        color: grey;
+                                        margin-top: 0px;
+                                        color: black;
                                         padding: 0;
+                                        font-size: 1.25rem;
                                     }
                                 }
                             }
