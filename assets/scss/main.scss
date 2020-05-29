@@ -395,7 +395,7 @@ header {
     }
     .address {
         text-align: left;
-        padding: 15px;
+        padding: 15px 0px;
         p {
             margin-bottom: 2px;
         }
@@ -403,7 +403,7 @@ header {
 
     .email-list {
         text-align: left;
-        padding: 15px;
+        padding: 15px 0px;
         p {
             margin-bottom: 2px;
             font-weight: bold;
@@ -417,22 +417,13 @@ header {
     #map {
         margin: auto;
         min-height: 300px;
-        width: 90%;
+        width: 100%;
     }
-
+    .social-links { 
+        margin-bottom: 25px;
+    }
     .social-links li {
         margin: 0px 30px 0 0!important;
-    }
-    small {
-        display: block;
-        &.made-with {
-            span:first-of-type {
-                color: $color-dark;
-            }
-            span:last-of-type {
-                color: #ee6161;
-            }
-        }
     }
 }
 
@@ -451,6 +442,20 @@ header {
         }
         small {
             font-size: .7rem;
+        }
+        a { 
+            display: inline-block;
+            padding-right: 15px;
+        }
+    }
+    small {
+        &.made-with {
+            span:first-of-type {
+                color: $color-dark;
+            }
+            span:last-of-type {
+                color: #ee6161;
+            }
         }
     }
 }
@@ -479,6 +484,10 @@ header {
                 padding: .5rem 2.75rem;
             }
         }
+    }
+    .long-mail {
+        max-width: 90%;
+        font-size: 0.75em;
     }
 }
 
