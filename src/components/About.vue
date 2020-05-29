@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section id="about" class="bg-grey">
     <b-container>
       <b-row class="about">
         <b-col class="col-12 col-lg-6 mb-5">
