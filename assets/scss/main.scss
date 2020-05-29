@@ -43,10 +43,12 @@ i {
 }
 
 #about,
-#contact {
-    padding-top: 70px;
-    padding-bottom: 70px;
+#contact,
+#donations {
+    padding-top: 90px;
+    padding-bottom: 90px;
     border-bottom: 1px solid rgba(211, 211, 211, 0.3);
+    border-top: 1px solid rgba(211, 211, 211, 0.3);
 }
 
 .bg-grey {
@@ -294,7 +296,6 @@ header {
 #about {
     h2 {
         position: relative;
-        margin-top: 30px;
         margin-bottom: 30px;
         .initial {
             background-color: $color-yellow;
@@ -386,6 +387,7 @@ header {
 
 #footer {
     .section-heading {
+        margin-top:0;
         h2 {
             position: relative;
             margin-bottom: 0;
@@ -406,7 +408,7 @@ header {
     }
     .address {
         text-align: left;
-        padding: 15px;
+        padding: 15px 0px;
         p {
             margin-bottom: 2px;
         }
@@ -414,7 +416,7 @@ header {
 
     .email-list {
         text-align: left;
-        padding: 15px;
+        padding: 15px 0px;
         p {
             margin-bottom: 2px;
             font-weight: bold;
@@ -428,22 +430,13 @@ header {
     #map {
         margin: auto;
         min-height: 300px;
-        width: 90%;
+        width: 100%;
     }
-
+    .social-links { 
+        margin-bottom: 25px;
+    }
     .social-links li {
         margin: 0px 30px 0 0!important;
-    }
-    small {
-        display: block;
-        &.made-with {
-            span:first-of-type {
-                color: $color-dark;
-            }
-            span:last-of-type {
-                color: #ee6161;
-            }
-        }
     }
 }
 
@@ -462,6 +455,20 @@ header {
         }
         small {
             font-size: .7rem;
+        }
+        a { 
+            display: inline-block;
+            padding-right: 15px;
+        }
+    }
+    small {
+        &.made-with {
+            span:first-of-type {
+                color: $color-dark;
+            }
+            span:last-of-type {
+                color: #ee6161;
+            }
         }
     }
 }
@@ -499,6 +506,10 @@ header {
                 margin-top: 40px;
             }
         }
+    }
+    .long-mail {
+        max-width: 90%;
+        font-size: 0.75em;
     }
 }
 

@@ -63,7 +63,10 @@
         "suscripcion": "Monthly donation"
     },
     "contact": {
-        "title": "Contact Us"
+        "title": "Contact Us",
+        "inquiries": "General inquiries:",
+        "support": "Support and donations:",
+        "students": "Students:"
     },
     "footer": {
         "signature": "<span>&lt;/&gt;</span> with <span>♥</span> by cooperativists",
