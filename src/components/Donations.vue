@@ -27,7 +27,7 @@
             <b-button 
               class="donate-button b-purple"
               mp-mode="dftl" 
-              href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=47243777-329b6b58-0399-4b2e-b52d-36fbccec9bb8d" name="MP-payButton"
+              href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=47243777-329b6b58-0399-4b2e-b52d-36fbccec9bb8" name="MP-payButton"
             >{{ $t('donations.donateButton') }} $1000</b-button>
             <b-button 
               class="donate-button b-red"
