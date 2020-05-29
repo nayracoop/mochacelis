@@ -19,11 +19,11 @@
             <p>Tel: +54 (011) 4554-9048</p>
           </div>
           <div class="email-list">
-            <p>Consultas generales: </p>
+            <p>{{ $t("contact.inquiries")}}</p>
             <a class="long-mail" href="mailto: info@bachilleratomochacelis.edu.ar">info@bachilleratomochacelis.edu.ar</a>
-            <p>Apoyos y donaciones: </p>
+            <p>{{ $t("contact.support")}}</p>
             <a class="long-mail" href="mailto: cooperadora@bachilleratomochacelis.edu.ar">cooperadora@bachilleratomochacelis.edu.ar</a>
-            <p>Estudiantes:</p>
+            <p>{{ $t("contact.students")}}</p>
             <a class="long-mail" href="mailto: preceptoria@bachilleratomochacelis.edu.ar">preceptoria@bachilleratomochacelis.edu.ar</a>
           </div>
           <ul class="social-links">
