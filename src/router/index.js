@@ -48,7 +48,7 @@ const routes = [
 
 export default new Router({
   mode: 'history',
-  base: '/mochacelis/',
+  base: '/',
   routes,
   scrollBehavior (to, from, savedPosition) {
     return false
