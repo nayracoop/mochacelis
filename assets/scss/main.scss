@@ -44,8 +44,8 @@ i {
 
 #about,
 #contact {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     border-bottom: 1px solid rgba(211, 211, 211, 0.3);
 }
 
@@ -248,14 +248,15 @@ header {
 #cover {
     color: $color-dark;
     position: relative;
+    margin-top: 100px;
     .cover-info {
         position: relative;
         margin: auto;
+
         h1 {
-            font-size: 2rem;
-            margin: auto;
-            margin-top: 90px;
-            text-align: center;
+            font-size: 1.7rem;
+            width: 90%;
+            margin: -10px auto 30px;
         }
         p {
             font-size: 1.125rem;
@@ -264,19 +265,29 @@ header {
     .cover-image {
         position: relative;
         margin: auto;
-        margin-top: 10vh;
-        width: 80%;
         display: block;
+        width: 90%;
+
+        img{
+            width:100%;
+        }
     }
+
+    .cover-buttons{
+    width: 93%;
+    margin: 0 auto;
+
     .cover-button {
-        margin: 20px auto;
         display: block;
+        margin-top:20px;
         font-size: 1.25em;
-        width: 80%;
+        width: 100%;
         border: none;
         &:hover {
             opacity: 85%;
         }
+    }
+
     }
 }
 
@@ -466,7 +477,12 @@ header {
         font-size: 1.65rem;
     }
     #cover {
+
         .cover-info {
+            h1{
+                font-size: 1.3rem;
+                margin: 20px auto 40px;
+            }
             h2 {
                 //padding-top: 60px;
                 font-size: 1.85rem;
@@ -477,6 +493,10 @@ header {
             .btn {
                 font-size: 1rem;
                 padding: .5rem 2.75rem;
+            }
+            .cover-buttons{
+                width: 100%;
+                margin-top: 40px;
             }
         }
     }
@@ -623,13 +643,6 @@ all and (orientation: landscape) and (max-height: 500px) and (max-width: 991px) 
     }
 }
 
-@media all and (max-height: 800px) {
-    #cover {
-        .cover-info {
-            padding-top: 100px!important
-        }
-    }
-}
 
 .color-yellow {
     color: $color-yellow;
