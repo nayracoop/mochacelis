@@ -2,7 +2,7 @@
   <section id="about" class="bg-grey">
     <b-container>
       <b-row class="about">
-        <b-col class="col-12 col-lg-6 mb-5">
+        <b-col class="col-12 col-lg-6 mb-5 section-heading">
           <h2 class="pb-2">
             <span class="initial">
               {{$t('about.title')[0]}}</span>{{ $t('about.title').substr(1)}}

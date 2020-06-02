@@ -9,7 +9,7 @@
           </h2>
         </b-col>
       </b-row>
-      <b-row class="contact-body mb-5">
+      <b-row class="contact-body">
         <b-col class="col-12 col-lg-6">
           <div class="address">
             <p>Bachillerato Popular Trans Mocha Celis</p>

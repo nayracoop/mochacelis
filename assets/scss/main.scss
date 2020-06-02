@@ -46,10 +46,14 @@ i {
 #about,
 #contact,
 #donations {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     border-bottom: 1px solid rgba(211, 211, 211, 0.3);
     border-top: 1px solid rgba(211, 211, 211, 0.3);
+    @media all and (max-width: 768px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
 
 .bg-grey {
@@ -57,14 +61,17 @@ i {
 }
 
 .section-heading {
+    margin-top: 40px;
     margin-bottom: 40px;
-    margin-top: 70px;
     h2 {
         .initial {
             width: 0.9em;
             height: 0.9em;
             padding: 0 .1em;
         }
+    }
+    @media all and (max-width:768px) {
+        margin-top: 40px;
     }
 }
 
@@ -260,8 +267,12 @@ header {
 #cover {
     color: $color-dark;
     position: relative;
-    margin-top: 100px;
+    padding-top: 100px;
     padding-bottom: 90px;
+    @media all and (max-width: 768px) {
+        margin-top: 0;
+        padding-top: 100px;
+    }
     .cover-info {
         position: relative;
         margin: auto;
@@ -279,30 +290,29 @@ header {
         position: relative;
         margin: auto;
         display: block;
-        width: 90%;
+        width: 95%;
 
         img{
             width:100%;
         }
     }
 
-    .cover-buttons{
-    width: 93%;
-    margin: 0 auto;
-    margin-top: 30px;
+    .cover-buttons {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 30px;
 
-    .cover-button {
-        display: block;
-        margin-top: 20px;
-        font-size: 1.25em;
-        font-weight: 600;
-        width: 100%;
-        border: none;
-        &:hover {
-            opacity: 85%;
+        .cover-button {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.25em;
+            font-weight: 600;
+            width: 100%;
+            border: none;
+            &:hover {
+                opacity: 85%;
+            }
         }
-    }
-
     }
 }
 
@@ -321,7 +331,6 @@ header {
         font-size: 80%;
     }
     .about-info {
-        margin: auto;
         margin-bottom: 22px;
         p {
             text-align: left;
@@ -386,11 +395,14 @@ header {
         padding-bottom: 10px;
         .donate-button {
             font-size: 1em;
-            width: 90%;
+            width: 93%;
             margin: 10px auto;
             border: none;
             &:hover {
                 opacity: 85%;
+            }
+            @media all and (max-width: 768px) {
+                width: 100%;
             }
         }
         em {
@@ -400,13 +412,18 @@ header {
 }
 
 #footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    @media all and (max-width: 768px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
     .section-heading {
-        margin-top:0;
+        //margin-top:0;
         h2 {
             position: relative;
             margin-bottom: 0;
             .initial{
-
                 background-color: $color-purple;
                 width: 1em;
                 height: 1em;
@@ -414,9 +431,7 @@ header {
             }
         }
     }
-    padding-top: 65px;
-    padding-bottom: 35px;
-  
+
     .contact-body {
         justify-content: space-around;
     }
@@ -535,7 +550,7 @@ header {
     }
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width: 768px) {
     #about {
         .about-info {
             background-image: none;
