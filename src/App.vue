@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss">
-  @import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
   @import 'assets/css/reset';
   @import 'node_modules/bootstrap/scss/bootstrap';
   @import 'node_modules/bootstrap-vue/src/index.scss';
