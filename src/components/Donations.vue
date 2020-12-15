@@ -17,22 +17,22 @@
             <b-button 
               class="donate-button b-green"
               mp-mode="dftl" 
-              href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=47243777-d89cc553-92c5-4e1a-bffe-bae83a888f17" name="MP-payButton"
-            >{{ $t('donations.donateButton') }} $300</b-button>
+              href="https://mpago.la/2tvk3dJ" name="MP-payButton"
+            >{{ $t('donations.donateButton') }} $500</b-button>
             <b-button 
               class="donate-button b-blue"
               mp-mode="dftl" 
-              href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=47243777-41157bc2-dd09-4afa-ae8c-9c650263634d" name="MP-payButton"
-            >{{ $t('donations.donateButton') }} $500</b-button>
+              href="https://mpago.la/32nZJqk" name="MP-payButton"
+            >{{ $t('donations.donateButton') }} $750</b-button>
             <b-button 
               class="donate-button b-purple"
               mp-mode="dftl" 
-              href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=47243777-329b6b58-0399-4b2e-b52d-36fbccec9bb8" name="MP-payButton"
+              href="https://mpago.la/26kybgE" name="MP-payButton"
             >{{ $t('donations.donateButton') }} $1000</b-button>
             <b-button 
               class="donate-button b-red"
               mp-mode="dftl" 
-              href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=47243777-28b3a21e-3a15-44d9-aa19-6c1a96f155fd" name="MP-payButton"
+              href="https://mpago.la/1uTZrZr" name="MP-payButton"
             >{{ $t('donations.donateButton') }} $2500</b-button>
             
           </div>
